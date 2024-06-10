@@ -1,0 +1,5 @@
+title: "Favio Leiva Cárdenas"
+description: "Economics, Geography, Photography, Music and Other Arts"
+baseurl: "" # Deja esto en blanco si tu sitio no está alojado en un subdirectorio
+url: "https://https://favioleiva.github.io/" # La URL de tu sitio web
+theme: minima # El tema de Jekyll que estás usando (puedes cambiarlo si lo deseas)
