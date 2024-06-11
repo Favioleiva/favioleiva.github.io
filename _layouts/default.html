@@ -11,17 +11,18 @@
         <h1>Favio Leiva</h1>
         <nav>
             <ul>
-                <li><a href="{{ '/' | relative_url }}">Home</a></li>
-                <li><a href="{{ '/about' | relative_url }}">About</a></li>
-                <li><a href="{{ '/research' | relative_url }}">Research</a></li>
-                <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
-                <li><a href="{{ '/projects' | relative_url }}">Projects</a></li>
-                <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+                <li><a href="{{ '/publications.md' | relative_url }}">Publications</a></li>
+                <li><a href="{{ '/presentations.md' | relative_url }}">Presentations</a></li>
+                <li><a href="{{ '/tutorials.md' | relative_url }}">Tutorials</a></li>
+                <li><a href="{{ '/contact.md' | relative_url }}">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
         {{ content }}
     </main>
+    <footer>
+        <p>&copy; 2024 Favio Leiva</p>
+    </footer>
 </body>
 </html>
