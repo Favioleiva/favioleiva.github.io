@@ -6,8 +6,8 @@ permalink: /contact/
 
 # Contact
 
-<div style="overflow: hidden;">
-  <div style="float: left; width: 70%;">
+<div style="display: flex; align-items: flex-start;">
+  <div style="flex: 2;">
     <p>You can reach me at: leiva.cardenas.favio.sergio.w2@s.mail.nagoya-u.ac.jp</p>
 
     <p>Here is my social media:</p>
@@ -28,9 +28,7 @@ permalink: /contact/
     </div>
   </div>
 
-  <div style="float: right; width: 30%;">
-    <img src="/images/2.Computer.jpg" alt="Computer Image" style="max-width: 100%; margin-left: 15px; margin-bottom: 15px;">
+  <div style="flex: 1; margin-left: 20px;">
+    <img src="/images/2.Computer.jpg" alt="Computer Image" style="width: 100%; height: auto;">
   </div>
 </div>
-
-<div style="clear: both;"></div>
