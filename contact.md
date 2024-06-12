@@ -6,7 +6,7 @@ permalink: /contact/
 
 # Contact
 
-<div style="display: flex; align-items: flex-start;">
+<div style="display: flex;">
   <div style="flex: 2;">
     <p>You can reach me at: leiva.cardenas.favio.sergio.w2@s.mail.nagoya-u.ac.jp</p>
 
@@ -28,7 +28,8 @@ permalink: /contact/
     </div>
   </div>
 
-  <div style="flex: 1; margin-left: 20px;">
+  <div style="flex: 1; margin-left: 20px; display: flex; align-items: flex-start;">
     <img src="/images/2.Computer.jpg" alt="Computer Image" style="width: 100%; height: auto;">
   </div>
 </div>
+
