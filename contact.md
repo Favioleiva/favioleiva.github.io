@@ -8,7 +8,7 @@ permalink: /contact/
 <p>You can reach me at: leiva.cardenas.favio.sergio.w2@s.mail.nagoya-u.ac.jp</p>
 <table style="width: 100%;">
   <tr>
-    <td style="vertical-align: top; width: 70%;"> 
+    <td style="vertical-align: top; width: 30%;"> 
       <div class="contact-icons">
       <p>Here is my social media:</p>
         <a href="https://www.researchgate.net/profile/Favio-Leiva/research" target="_blank">
@@ -25,7 +25,7 @@ permalink: /contact/
         </a>
       </div>
     </td>
-    <td style="vertical-align: middle; width: 30%;">
+    <td style="vertical-align: middle; width: 70%;">
       <img src="/images/2.Computer.jpg" alt="Computer Image" style="width: 100%; height: auto;">
     </td>
   </tr>
