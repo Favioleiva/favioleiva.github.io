@@ -9,7 +9,7 @@ permalink: /contact/
 <p>Here is my social media:</p>
 <table style="margin: 0 auto;">
   <tr>
-    <td style="vertical-align: top; width: 30%;"> 
+    <td style="vertical-align: middle; width: 30%;"> 
       <div class="contact-icons">
         <a href="https://www.researchgate.net/profile/Favio-Leiva/research" target="_blank">
           <i class="fab fa-researchgate"></i> ResearchGate
