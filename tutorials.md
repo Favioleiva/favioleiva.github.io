@@ -8,9 +8,9 @@ permalink: /tutorials/
 
 If you want some resources for your research, here you can find a set of videos, computational notebooks or scripts. If you find any bug or problem, please let me know to fix it! Feel free to share them with other people interested!
 
-# Teaching resources
+## Teaching resources
 
-## Sit allocation in a class
+### Sit allocation in a class
 
 **Summary:**
 The seating arrangement can significantly influence the outcome of learning experiences. Achieving randomness in a round table context is crucial not only for promoting equity but also for fostering new combinations of knowledge and interactions within a group. However, setting up a random environment can be challenging. This computational notebook presents a method for distributing students randomly using the network analysis library NetworkX to create the seating arrangement.
@@ -22,9 +22,9 @@ The seating arrangement can significantly influence the outcome of learning expe
 
 **Link to Notebook:** [Random Seating Arrangement Notebook](https://colab.research.google.com/drive/17_OtGULUDAgJDXVVphjcIraeVN_raJHd?usp=sharing)
 
-# REDATAM
+## REDATAM
 
-## 1. Redatam7: A brief introduction and where to download the Software
+### 1. Redatam7: A brief introduction and where to download the Software
 In this video transcript, the speaker introduces a tutorial on how to install Redatam, which stands for Retrieval of Data for Small Areas by Microcomputer, and mentions where to download the software. They discuss the three main components of Redatam: Redatam Create, Redatam Process, and Redatam Admin. The speaker explains that they will focus on Redatam Process in the tutorial. They also provide information about the availability of data for various countries and types of data. The speaker plans to share more videos as they proceed with the tutorial and express their intention to improve video quality. The transcript includes detailed information on Redatam and its applications.
 
 Three key points:
@@ -36,7 +36,7 @@ Three key points:
 Watch the [first video tutorial](https://www.loom.com/share/6b6b46ffb5d84fe4b511af4d5558aa69?sid=f07fdb18-525f-45ef-84d2-35c898665947) 
 Download the  [software](https://redatam.org/en/software).
 
-## 2. Redatam7: Instalation, Set Up and Saving a Project
+### 2. Redatam7: Instalation, Set Up and Saving a Project
 In this transcript, the speaker demonstrates the installation of software, highlighting language options and preferences. They choose to install it in English, emphasizing the simplicity and speed of the process. After installation, the speaker briefly mentions the software they'll be using. They also discuss language selection within the software and provide a recommendation to configure certain settings. Finally, the speaker mentions opening a database related to Bolivia and creating a project for safe data analysis, concluding the discussion with gratitude.
 
 Three key points from the transcript:
@@ -47,7 +47,7 @@ Three key points from the transcript:
 
 Watch the [second video tutorial](https://www.loom.com/share/f53604839d3d4f7caaf889145618c8b6?sid=f38e1ce1-7937-4532-80da-0a91c9a18662)
 
-## 3. Redatam7: Final Set Up for Bolivia 2012 Project
+### 3. Redatam7: Final Set Up for Bolivia 2012 Project
 
 In this tutorial, the speaker explains how to load a project in Redatam software. They emphasize the advantages of working with a project over a directory, enabling safer changes and estimations. The speaker details the nested structure of census information, starting at the department level and breaking down to municipalities and household variables. They discuss the project setup, labeling, resource directories, and documentation, ensuring all necessary files are organized. The speaker concludes by underlining the importance of the questionnaire for variable reference.
 
@@ -59,7 +59,7 @@ Three key points from the transcript:
 
 Watch the [third video tutorial](https://www.loom.com/share/8e69c8f952a24b36a2dcaa6ddad97ff0?sid=974a9dc3-e36d-4ce8-952c-97ee1db4d5de)
 
-## 4. Redatam7: Fast operations using the "Frequencies", the "Ribbon" and "Code using Programs": Indigenous Nations, Spoken Languages and Gender
+### 4. Redatam7: Fast operations using the "Frequencies", the "Ribbon" and "Code using Programs": Indigenous Nations, Spoken Languages and Gender
 
 In this tutorial, the speaker demonstrates how to perform fast operations with Redatam, a data analysis tool, using a Bolivian census dataset. He starts by showing how to find and analyze information about the distribution of genders, with more women than men in the census. Then, he explores the first language people learned to speak, highlighting the prevalence of Spanish, Aymara, and Quechua. The speaker also mentions the presence of other languages, such as German, Chinese, and Japanese. He expresses his appreciation for the quality of the Bolivian census data and discusses the potential for further analysis, such as housing types. The tutorial concludes with a brief explanation of how to save the data in an Excel format for further exploration.
 
@@ -70,7 +70,7 @@ In this tutorial, the speaker demonstrates how to perform fast operations with R
 
 Watch the [fourth video tutorial](https://www.loom.com/share/201a2be2c9ed42a1b5a27e3f41963c56?sid=20860159-96f1-4e78-b7cf-21d37eb9cf04)
 
-## 5. Redatam7: Crosstabs of Indigenous Nations and Gender
+### 5. Redatam7: Crosstabs of Indigenous Nations and Gender
 
 In this tutorial, the speaker introduces the concept of cross tabulations, explaining that they can be found in the statistical processor ribbon. They demonstrate how to create a cross tabulation of variables, such as indigenous population and gender, and how to identify those not belonging to any indigenous group. The tutorial provides a program example for generating cross tabulations and exports the results to Excel. The tutorial concludes by highlighting the output files created. The key points include locating cross tabulations in the statistical processor, creating cross tables for specific variables, and exporting the results to Excel.
 
@@ -80,7 +80,7 @@ In this tutorial, the speaker introduces the concept of cross tabulations, expla
 
 Watch the [fifth video tutorial](https://www.loom.com/share/db7bfd8d83644973a5559275f26626f4?sid=bbff5526-0724-499e-b3d3-beadc9c1a330)
 
-## 6. Redatam7: Arealist - Indigenous and non-Indigenous populations in Bolivia
+### 6. Redatam7: Arealist - Indigenous and non-Indigenous populations in Bolivia
 
 In this tutorial, he demonstrates how to represent variables at the district or municipality level using a statistical processor called Arealist, with a focus on working with a single variable and a disclaimer that this method does not apply to crosstabs. He walks through the process, using the example of variable p29c for Bolivia in 2019, illustrating how to split the output at the municipality level and add the municipality names for clarity. He mentions his intention to use this data to create an ethnic map for a Bolivian project, highlighting the need for additional variables for those not identifying as indigenous. He saves the program as "Bolivian Program 5: Bolivian Nations by Municipality" and switches the analysis to variable p29a, including output area names for non-indigenous and non-Bolivian populations. The tutorial concludes with a plan to work with the data in GIS and write a brief article.
 
@@ -90,7 +90,7 @@ In this tutorial, he demonstrates how to represent variables at the district or 
 
 Watch the [sixth video tutorial](https://www.loom.com/share/3b2eba1198d34e0c9292a33c91958a0b?sid=a8e1893f-e671-43a3-9ffd-1319ff9cc8c5)
 
-## 7. Redatam7: Adding Filters to Frequency Tables and Crosstables
+### 7. Redatam7: Adding Filters to Frequency Tables and Crosstables
 In this tutorial, he teaches how to add filters to frequency tables and cross-tables in the statistical processor. He starts by demonstrating how to filter a frequency table using the example variable B29C, specifying the filter condition, and displaying the filtered data. Then, he moves on to a cross-table analysis by selecting a relevant variable, adding a filter for females, and creating a cross-tabulation between indigenous nations and job categories. He emphasizes the value of this analysis in understanding the distribution of job categories among indigenous groups, particularly female-owned businesses. He saves the results as "Bolivia 4" and highlights the importance of considering individuals who do not identify as indigenous in the analysis.
 
 - Teaches how to add filters to frequency tables and cross-tables.
