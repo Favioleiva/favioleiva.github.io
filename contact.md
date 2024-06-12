@@ -26,7 +26,7 @@ permalink: /contact/
       </div>
     </td>
     <td style="vertical-align: middle; width: 70%;">
-      <img src="/images/2.Computer.jpg" alt="Computer Image" style="width: 100%; height: 100%;">
+      <img src="/images/2.Computer.jpg" alt="Computer Image" style="width: 100%; height: auto; max-width: 600px;">
     </td>
   </tr>
 </table>
