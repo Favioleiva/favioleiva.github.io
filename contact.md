@@ -5,15 +5,12 @@ permalink: /contact/
 ---
 
 # Contact
-
+<p>You can reach me at: leiva.cardenas.favio.sergio.w2@s.mail.nagoya-u.ac.jp</p>
 <table style="width: 100%;">
   <tr>
-    <td style="vertical-align: top; width: 70%;">
-      <p>You can reach me at: leiva.cardenas.favio.sergio.w2@s.mail.nagoya-u.ac.jp</p>
-
-      <p>Here is my social media:</p>
-
+    <td style="vertical-align: top; width: 70%;"> 
       <div class="contact-icons">
+      <p>Here is my social media:</p>
         <a href="https://www.researchgate.net/profile/Favio-Leiva/research" target="_blank">
           <i class="fab fa-researchgate"></i> ResearchGate
         </a><br>
