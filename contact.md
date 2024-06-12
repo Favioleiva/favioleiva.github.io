@@ -7,7 +7,7 @@ permalink: /contact/
 # Contact
 <p>You can reach me at: leiva.cardenas.favio.sergio.w2@s.mail.nagoya-u.ac.jp</p>
 <p>Here is my social media:</p>
-<table style="width: 100%;">
+<table style="margin: 0 auto;">
   <tr>
     <td style="vertical-align: top; width: 30%;"> 
       <div class="contact-icons">
