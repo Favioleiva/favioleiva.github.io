@@ -13,4 +13,4 @@ You can reach me at:
 - ResearchGate: [ResearchGate Profile](https://www.researchgate.net/profile/Favio-Leiva/research)
 - ORCID: [ORCID Profile](https://orcid.org/0000-0001-9315-3097)
 - GitHub: [GitHub Profile](https://github.com/Favioleiva)
-- LinkedIn (Research): [LinkedIn Research Profile](https://www.linkedin.com/in/favioleivacardenas/)
+- LinkedIn: [LinkedIn Research Profile](https://www.linkedin.com/in/favioleivacardenas/)
