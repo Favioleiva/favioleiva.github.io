@@ -6,12 +6,11 @@ permalink: /contact/
 
 # Contact
 
-You can reach me at:
+You can reach me at: leiva.cardenas.favio.sergio.w2@s.mail.nagoya-u.ac.jp
+
+Here is my social media:
 
 <div class="contact-icons">
-  <a href="mailto:leiva.cardenas.favio.sergio.w2@s.mail.nagoya-u.ac.jp">
-    <i class="fas fa-envelope"></i> Email
-  </a>
   <a href="https://www.researchgate.net/profile/Favio-Leiva/research" target="_blank">
     <i class="fab fa-researchgate"></i> ResearchGate
   </a>
