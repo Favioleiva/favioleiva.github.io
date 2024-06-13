@@ -34,4 +34,4 @@ permalink: /publications/
 ---
 
 ## La desestructuración del sistema peruano de pensiones 
-**Cruz-Saco, M. A., Seminario, B., Leiva, F., Moreno, C., y Zegarra, M. A. (2018)** (No. 10; Documentos de Investigación). [Read more](https://bit.ly/3stgghI)
+**Cruz-Saco, M. A., Seminario, B., Leiva, F., Moreno, C., y Zegarra, M. A. (2018)** (No. 10; Documentos de Investigación) Fondo Editorial de la Universidad del Pacífico. [Read more](https://bit.ly/3stgghI)
