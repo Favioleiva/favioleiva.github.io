@@ -10,6 +10,8 @@ permalink: /publications/
 **Leiva, F. (2023)** *Política Internacional*, 134, 240–262. [Read more](https://revista.adp.edu.pe/index.php/RPI/article/view/103)
 
 ---
+## Transición económica y trampa del ingreso medio en el Perú: Un enfoque de largo plazo, 1876-2017. 
+**Cruz Saco, M. A., Gil, M., & Leiva, F. (2023)** En Y. Zhang & R. S. Gadea (Eds.), En búsqueda de un camino para evitar la trampa del ingreso medio: Los casos de China y Perú (1a ed., pp. 65–100). Universidad del Pacífico. [Read more](https://fondoeditorial.up.edu.pe/producto/en-busqueda-de-un-camino-para-evitar-la-trampa-del-ingreso-medio-los-casos-de-china-y-peru/)
 
 ## Transition and the Middle-Income Trap in Peru: A Long Term Perspective since the Late 19th Century
 **Cruz Saco, M. A., Gil, M., and Leiva, F. (2021)** In R. Santa Gadea and Y. Zhang (Eds.), *Finding a Way to Avoid the Middle Income Trap: The Cases of China and Peru* (pp. 78–116). China Social Sciences Press. [Read more](https://bit.ly/3GWDeSz)
