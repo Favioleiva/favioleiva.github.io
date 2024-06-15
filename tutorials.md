@@ -26,4 +26,4 @@ The seating arrangement can significantly influence the outcome of learning expe
 
 ### Redatam
 
-[![Redatam](https://github.com/Favioleiva/favioleiva.github.io/blob/main/images/REDATAM.png)](/tutorials/redatam)
+[![Redatam](images/REDATAM.png)](/tutorials/redatam)
