@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Tutorials"
-permalink: /tutorials/
+title: "Redatam"
+permalink: /tutorials/redatam
 ---
 # REDATAM
 
