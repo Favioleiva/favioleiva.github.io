@@ -6,7 +6,7 @@ permalink: /essays/honrarmadreypadre
 
 # Honrarás a tu madre y a tu padre
 
-[![Faviocon](images/Faviocon.jpg)]
+<img src="/images/Faviocon.jpg" alt="Faviocon" style="width: 100%; height: auto; max-width: 600px;">
 
 16/06/2024
 
