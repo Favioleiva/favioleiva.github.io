@@ -4,7 +4,7 @@ title: "Honrarás a tu madre y a tu padre"
 permalink: /essays/honrarmadreypadre
 ---
 
-# Honrarás a tu madre y a tu padre
+<center> <h1>Honrarás a tu madre y a tu padre</h1> </center>
 
 <img src="/images/Faviocon.jpg" alt="Faviocon" style="width: 100%; height: auto; max-width: 600px;">
 
