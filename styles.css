@@ -1,35 +1,49 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
 }
+
+/* Estilos del encabezado */
 header {
     background: #333;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
+
+/* Estilos del menú de navegación */
 nav ul {
     list-style: none;
     padding: 0;
+    text-align: center; /* Alineación centrada para el menú */
 }
+
 nav ul li {
     display: inline;
     margin: 0 10px;
 }
+
 nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+
+/* Estilos del contenido principal */
 main {
     padding: 2rem;
     max-width: 900px;
     margin: auto;
 }
+
+/* Estilos de sección */
 section {
     margin-bottom: 2rem;
 }
+
+/* Estilos del pie de página */
 footer {
     background: #333;
     color: #fff;
@@ -39,19 +53,28 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+/* Estilos de imágenes */
 img {
-    max-width: 300px; /* Ajustar tamaño de la imagen */
+    max-width: 100%; /* Imágenes responsivas */
     height: auto;
+    display: block; /* Elimina espacio adicional debajo de las imágenes */
+    margin: 0 auto 15px; /* Alineación centrada y margen inferior */
 }
+
+/* Estilos para divs */
 div {
     overflow: hidden;
     margin-bottom: 20px;
 }
+
 div img {
     float: right;
     margin-left: 15px;
     margin-bottom: 15px;
 }
+
+/* Estilos para párrafos */
 p {
-    text-align: justify; /* Justificar párrafos */
+    text-align: justify; /* Justificación de párrafos */
 }
