@@ -24,6 +24,6 @@ The seating arrangement can significantly influence the outcome of learning expe
 
 ## Software and code
 
-### Redatam
+<center> <h1>REDATAM</h1> </center>
 
 [![Redatam](images/REDATAM.png)](/tutorials/redatam)
