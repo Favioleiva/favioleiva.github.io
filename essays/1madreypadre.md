@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Redatam"
+title: "Honrarás a tu madre y a tu padre"
 permalink: /essays/honrarmadreypadre
 ---
 
