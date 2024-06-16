@@ -4,7 +4,7 @@ title: "Contact"
 permalink: /contact/
 ---
 
-# Contact
+<center> <h1>Contact</h1> </center>
 <p>You can reach me at: leiva.cardenas.favio.sergio.w2@s.mail.nagoya-u.ac.jp</p>
 <p>Here is my social media:</p>
 <table style="margin: 0 auto;">
