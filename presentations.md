@@ -3,7 +3,7 @@ layout: default
 title: "Presentations"
 permalink: /presentations/
 ---
-# Presentations
+<center> <h1>Presentations</h1> </center>
 
 ## Estudiar en Japón
 
