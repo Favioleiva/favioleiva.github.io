@@ -4,7 +4,7 @@ title: "Tutorials"
 permalink: /tutorials/
 ---
 
-# Tutorials
+<center> <h1>Tutorials</h1> </center>
 
 If you want some resources for your research, here you can find a set of videos, computational notebooks, or scripts. If you find any bug or problem, please let me know to fix it! Feel free to share them with other people interested!
 
