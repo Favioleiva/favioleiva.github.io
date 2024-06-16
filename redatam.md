@@ -3,7 +3,7 @@ layout: default
 title: "Redatam"
 permalink: /tutorials/redatam
 ---
-# REDATAM
+<center> <h1>Redatam</h1> </center>
 
 ## 1. Redatam7: A brief introduction and where to download the Software
 In this video transcript, the speaker introduces a tutorial on how to install Redatam, which stands for Retrieval of Data for Small Areas by Microcomputer, and mentions where to download the software. He discusses the three main components of Redatam: Redatam Create, Redatam Process, and Redatam Admin. The speaker explains that he will focus on Redatam Process in the tutorial. He also provides information about the availability of data for various countries and types of data. The speaker plans to share more videos as he proceeds with the tutorial and expresses his intention to improve video quality. The transcript includes detailed information on Redatam and its applications.
