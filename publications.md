@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 ---
 
-# Publications
+<center> <h1>Publications</h1> </center>
 
 ## Más de 100 años de historia comercial entre Perú y Japón
 **Leiva, F. (2023)** *Política Internacional*, 134, 240–262. [Read more](https://revista.adp.edu.pe/index.php/RPI/article/view/103)
