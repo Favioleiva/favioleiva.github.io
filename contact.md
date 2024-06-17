@@ -31,3 +31,11 @@ permalink: /contact/
   </tr>
 </table>
 
+<p style="text-align: center; margin-top: 20px;">
+  <a href="/images/CV_FL16062024.pdf" download>
+    <button style="padding: 10px 20px; font-size: 16px;">Download CV</button>
+  </a>
+</p>
+
+
+
