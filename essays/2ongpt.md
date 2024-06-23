@@ -6,8 +6,6 @@ permalink: /essays/ongpt
 
 <center> <h1>Some reflections on GPT</h1> </center>
 
-<img src="/images/Faviocon.jpg" alt="Faviocon" style="width: 100%; height: auto; max-width: 600px;">
-
 23/06/2024
 
 This essay portrays some reflections on GPT and how we can use it to improve the speed of our workflow minimizing mistakes and revisions. 
