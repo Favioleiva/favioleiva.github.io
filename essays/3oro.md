@@ -7,6 +7,7 @@ permalink: /essays/concentracionoro
 <center> <h1>Algunas reflexiones sobre la concentración de oro en Perú: 2001-2023</h1> </center>
 
 <iframe src="/images/concentracion_de_oro_por_año_y_distrito.html" style="width: 100%; height: 600px; max-width: 5000px;" title="Concentration de Oro por Año y Distrito"></iframe>
+Fuente: Elaboración propia con base en los anuarios del Ministerio de Energía y Minas
 
 01/07/2024
 
