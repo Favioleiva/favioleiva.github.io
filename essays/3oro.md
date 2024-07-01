@@ -4,7 +4,7 @@ title: "Algunas reflexiones sobre la concentración de oro en Perú: 2001-2023"
 permalink: /essays/concentracionoro
 ---
 
-<center> <h1>Algunas reflexiones sobre la concentración de oro en Perú: 2001-2023</h1> </center>
+<center> <h1>Algunas reflexiones sobre la concentración de oro en Perú: 2001-2023*</h1> </center>
 
 <iframe src="/images/concentracion_de_oro_por_año_y_distrito.html" style="width: 100%; height: 600px; max-width: 5000px; border: none;" title="Concentration de Oro por Año y Distrito"></iframe>
 Fuente: Elaboración propia con base en los anuarios del Ministerio de Energía y Minas
@@ -22,3 +22,5 @@ En cualquier caso, la tendencia general de la producción de oro está a la baja
 Esto vale para los casos de minería donde no se cuenta con licencia social. Si las comunidades eligen no permitir la extracción de minerales por parte de las empresas grandes, ¿qué se hará para prevenir el otro mal? Y, finalmente, siempre queda la pregunta de ¿qué más hacer? Si no pueden extraerse minerales en regiones que tienen una ventaja comparativa en ello, ¿qué otras actividades económicas con un impacto similar en nivel de ingreso pueden generarse? No basta con simplemente prohibir la extracción o promover subsidios por parte de otras regiones: tales transferencias no son sostenibles a largo plazo y generan desequilibrios y tensiones sociales a la larga, así como un camino de dependencia en la región que los recibe. ¿Cómo se financiarían las actividades de las autoridades que resguarden la no extracción de minerales? ¿Cómo se prevendría la entrada de actores a los que no les importa la licencia social? Si el nivel de ingreso de las personas cercanas a una veta probada es bajo, ¿no sería razonable pensar que hay un incentivo natural a explotar la veta en búsqueda del aumento de los ingresos ya sea por las mismas personas cercanas o por actores de otros lugares?
 
 La producción de oro, diamantes, esmeraldas u otros minerales que no requieren grandes inversiones ni una formación muy especializada siempre podrá hacerse por productores que pongan en riesgo la sostenibilidad ambiental, social y económica de la región. Es necesario un diálogo continuo entre todas las partes y un estudio constante de aquellas zonas donde se sabe que hay reservas probadas, aunque se haya decidido no extraer. Si las comunidades eligen no permitir la extracción, eso no exime de responsabilidad al ministerio del seguimiento de la realidad de la zona. Y si se ha decidido seguir adelante con las operaciones mineras, pues lo mismo: todo lugar donde haya reservas probadas de minerales debe ser estudiado y se debe tener una idea clara del mineral extraído, así como las reservas posibles, probables y probadas de cada concesión minera registrada en el Catastro Minero. El acceso a la información debe ser simple para todo interesado y esta también debe ser consistente y limpia.
+
+*ChatGPT fue utilizado para la corrección de estilo de este ensayo.
