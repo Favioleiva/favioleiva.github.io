@@ -6,6 +6,7 @@ permalink: /essays/photographybeautytruth
 <center> <h1>On photography, beauty, truth and politics*</h1> </center>
 
 <img src="/images/Dragons.jpg" alt="Dragons" style="width: 100%; height: auto; max-width: 600px;">
+Source: Leiva (2024). Dragons in Osu Kannon.
 
 07/072024
 
