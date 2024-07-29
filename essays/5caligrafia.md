@@ -6,7 +6,7 @@ permalink: /essays/caligrafia
 <center> <h1>Caligrafía*</h1> </center>
 
 <img src="/images/Logo2.png" alt="Shodo" style="width: 100%; height: auto; max-width: 600px;">
-Source: Handwritten using Illustrator.
+Fuente: Hecho a mano usando Illustrator.
 
 29/07/2024
 
