@@ -30,7 +30,7 @@ The seating arrangement can significantly influence the outcome of learning expe
 
 <h1 align="center">Excel</h1>
 
-[![Excel](images/Excel.svg)](/tutorials/excel)
+[![Excel](images/Excel.png)](/tutorials/excel)
 
 
 
