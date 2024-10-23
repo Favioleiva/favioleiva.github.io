@@ -24,10 +24,20 @@ The seating arrangement can significantly influence the outcome of learning expe
 
 ## Software and code
 
-<center> <h1>Redatam</h1> </center>
+<table style="width:100%; border-collapse: collapse; text-align:center;">
+  <tr>
+    <td>
+      <h1>Redatam</h1>
+      <a href="/tutorials/redatam">
+        <img src="images/REDATAM.png" alt="Redatam" width="300" height="300">
+      </a>
+    </td>
+    <td>
+      <h1>Excel</h1>
+      <a href="/tutorials/excel">
+        <img src="images/Excel.svg" alt="Excel" width="300" height="300">
+      </a>
+    </td>
+  </tr>
+</table>
 
-[![Redatam](images/REDATAM.png)](/tutorials/redatam)
-
-<center> <h1>Excel</h1> </center>
-
-[![Excel](images/Excel.svg)](/tutorials/excel)
