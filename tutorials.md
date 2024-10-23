@@ -35,7 +35,7 @@ The seating arrangement can significantly influence the outcome of learning expe
     <td>
       <h1>Excel</h1>
       <a href="/tutorials/excel">
-        <img src="images/Excel.svg" alt="Excel" width="300" height="300">
+        <img src="images/Excel.svg" alt="Excel" width="100" height="100">
       </a>
     </td>
   </tr>
