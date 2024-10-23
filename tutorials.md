@@ -27,3 +27,7 @@ The seating arrangement can significantly influence the outcome of learning expe
 <center> <h1>Redatam</h1> </center>
 
 [![Redatam](images/REDATAM.png)](/tutorials/redatam)
+
+<center> <h1>Redatam</h1> </center>
+
+[![Excel](images/Excel.png)](/tutorials/excel)
