@@ -28,9 +28,13 @@ The seating arrangement can significantly influence the outcome of learning expe
 
 [![Redatam](images/REDATAM.png)](/tutorials/redatam)
 
+<h1 align="center">Python</h1>
+
+[![Python](images/python.png)](/tutorials/python)
+
 <h1 align="center">Geoda</h1>
 
-[![Excel](images/geoda.png)](/tutorials/geoda)
+[![Geoda](images/geoda.png)](/tutorials/geoda)
 
 <h1 align="center">Excel</h1>
 
