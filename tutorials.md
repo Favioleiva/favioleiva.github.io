@@ -24,22 +24,33 @@ The seating arrangement can significantly influence the outcome of learning expe
 
 ## Software and code
 
-<h1 align="center">Redatam</h1>
+    <div class="image-container">
+        <h1>Redatam</h1>
+        <a href="/tutorials/redatam">
+            <img src="images/REDATAM.png" alt="Redatam">
+        </a>
+    </div>
 
-[![Redatam](images/REDATAM.png)](/tutorials/redatam)
+    <div class="image-container">
+        <h1>Python</h1>
+        <a href="/tutorials/python">
+            <img src="images/python.png" alt="Python">
+        </a>
+    </div>
 
-<h1 align="center">Python</h1>
+    <div class="image-container">
+        <h1>Geoda</h1>
+        <a href="/tutorials/geoda">
+            <img src="images/geoda.png" alt="Geoda">
+        </a>
+    </div>
 
-[![Python](images/python.png)](/tutorials/python)
-
-<h1 align="center">Geoda</h1>
-
-[![Geoda](images/geoda.png)](/tutorials/geoda)
-
-<h1 align="center">Excel</h1>
-
-[![Excel](images/Excel.png)](/tutorials/excel)
-
+    <div class="image-container">
+        <h1>Excel</h1>
+        <a href="/tutorials/excel">
+            <img src="images/Excel.png" alt="Excel">
+        </a>
+    </div>
 
 
 
