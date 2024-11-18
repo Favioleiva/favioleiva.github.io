@@ -24,18 +24,37 @@ The seating arrangement can significantly influence the outcome of learning expe
 
 ## Software and code
 
-<h1 align="center">Redatam</h1>
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <th style="border: white; padding: 10px;"><h1 align="center">Redatam</h1></th>
+    <th style="border: none; padding: 10px;"><h1 align="center">Python</h1></th>
+  </tr>
+  <tr>
+    <td style="border: none; padding: 10px;">[![Redatam](images/REDATAM.png)](/tutorials/redatam)</td>
+    <td style="border: none; padding: 10px;">[![Python](images/python.png)](/tutorials/python)</td>
+  </tr>
+    <tr>
+    <th style="border: white; padding: 10px;"><h1 align="center">Geoda</h1></th>
+    <th style="border: none; padding: 10px;"><h1 align="center">Excel</h1></th>
+  </tr>
+  <tr>
+    <td style="border: none; padding: 10px;">[![Geoda](images/geoda.png)](/tutorials/geoda)</td>
+    <td style="border: none; padding: 10px;">[![Excel](images/Excel.png)](/tutorials/excel)</td>
+  </tr>
+</table>
 
-[![Redatam](images/REDATAM.png)](/tutorials/redatam)
 
-<h1 align="center">Python</h1>
 
-[![Python](images/python.png)](/tutorials/python)
 
-<h1 align="center">Geoda</h1>
 
-[![Geoda](images/geoda.png)](/tutorials/geoda)
 
-<h1 align="center">Excel</h1>
 
-[![Excel](images/Excel.png)](/tutorials/excel)
+
+
+
+
+
+
+
+
+
