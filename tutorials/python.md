@@ -12,5 +12,5 @@ To extract tables from PDFs, Tabula is an amazing tool that lets you convert tab
 
 In this code, we are generating a QR code that links to a general URL (`https://favioleiva.github.io/`). The `qrcode` library is used to create the QR code, specifying the version and error correction level. After creating the QR code, we extract its module matrix, which represents the individual black and white modules of the code. Using the `svgwrite` library, we create an SVG file where each module is drawn as a rounded rectangle. The size of each module is adjusted based on the matrix dimensions. Finally, the SVG file is saved as 'rounded_qr.svg', which can be viewed directly in a browser or SVG editor. Change the name of the URL and the ouput for your own convenience. 
 
-You can view and try the full code ![here](tutorials/python/QrCode.ipynb)
+You can view and try the full code [here](https://github.com/Favioleiva/favioleiva.github.io/blob/c24823d28d6d8d8cb278ac4e66e88f96ca938671/tutorials/python/QrCode.ipynb)
 
