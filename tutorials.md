@@ -24,6 +24,8 @@ The seating arrangement can significantly influence the outcome of learning expe
 
 ## Software and code
 
+<body>
+
     <div class="image-container">
         <h1>Redatam</h1>
         <a href="/tutorials/redatam">
@@ -51,6 +53,8 @@ The seating arrangement can significantly influence the outcome of learning expe
             <img src="images/Excel.png" alt="Excel">
         </a>
     </div>
+
+</body>
 
 
 
