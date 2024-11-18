@@ -61,9 +61,3 @@ The seating arrangement can significantly influence the outcome of learning expe
     <img src="images/Excel.png" alt="Excel">
   </a>
 </div>
-
-</p>
-
-
-
-
