@@ -26,22 +26,47 @@ The seating arrangement can significantly influence the outcome of learning expe
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
-    <th style="border: white; padding: 10px;"><h1 align="center">Redatam</h1></th>
-    <th style="border: none; padding: 10px;"><h1 align="center">Python</h1></th>
+    <th style="padding: 10px;">
+      <h1 style="text-align: center;">Redatam</h1>
+    </th>
+    <th style="padding: 10px;">
+      <h1 style="text-align: center;">Python</h1>
+    </th>
   </tr>
   <tr>
-    <td style="border: none; padding: 10px;">[![Redatam](images/REDATAM.png)](/tutorials/redatam)</td>
-    <td style="border: none; padding: 10px;">[![Python](images/python.png)](/tutorials/python)</td>
-  </tr>
-    <tr>
-    <th style="border: white; padding: 10px;"><h1 align="center">Geoda</h1></th>
-    <th style="border: none; padding: 10px;"><h1 align="center">Excel</h1></th>
+    <td style="padding: 10px; text-align: center;">
+      <a href="/tutorials/redatam">
+        <img src="images/REDATAM.png" alt="Redatam">
+      </a>
+    </td>
+    <td style="padding: 10px; text-align: center;">
+      <a href="/tutorials/python">
+        <img src="images/python.png" alt="Python">
+      </a>
+    </td>
   </tr>
   <tr>
-    <td style="border: none; padding: 10px;">[![Geoda](images/geoda.png)](/tutorials/geoda)</td>
-    <td style="border: none; padding: 10px;">[![Excel](images/Excel.png)](/tutorials/excel)</td>
+    <th style="padding: 10px;">
+      <h1 style="text-align: center;">Geoda</h1>
+    </th>
+    <th style="padding: 10px;">
+      <h1 style="text-align: center;">Excel</h1>
+    </th>
+  </tr>
+  <tr>
+    <td style="padding: 10px; text-align: center;">
+      <a href="/tutorials/geoda">
+        <img src="images/geoda.png" alt="Geoda">
+      </a>
+    </td>
+    <td style="padding: 10px; text-align: center;">
+      <a href="/tutorials/excel">
+        <img src="images/Excel.png" alt="Excel">
+      </a>
+    </td>
   </tr>
 </table>
+
 
 
 
