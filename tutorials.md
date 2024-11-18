@@ -36,7 +36,7 @@ The seating arrangement can significantly influence the outcome of learning expe
 <h1 align="center">Python</h1>
 <p align="center">
   <a href="/tutorials/python">
-    <img src="images/python.png" alt="Python">
+    <img src="images/python.png" alt="Python" style="width: 80%; height: auto; margin-top: 0px;">
   </a>
 </p>
 
