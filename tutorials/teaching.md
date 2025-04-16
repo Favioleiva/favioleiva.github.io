@@ -21,3 +21,21 @@ However, setting up a random environment can be challenging. This computational 
 
 **🔗 Link to Notebook:**  
 [Random Seating Arrangement Notebook](https://colab.research.google.com/drive/17_OtGULUDAgJDXVVphjcIraeVN_raJHd?usp=sharing)
+
+---
+## 🤝 Round Robin Dynamics Applied to Education
+
+The Round Robin method, rooted in tournament scheduling, offers a compelling strategy to enhance classroom interaction and inclusion.  
+By ensuring that each student is paired with every other exactly once, it breaks down social barriers and fosters empathy through structured conversations.
+
+- **🧮 Algorithmic Scheduling:**  
+  The notebook implements a **1-factorization algorithm** to efficiently generate all possible unique pairings for an even number of students.
+
+- **🌀 Visualizing Interaction Rounds:**  
+  For a class of 18, all 17 pairing rounds are visualized, providing a clear overview of the rotation process.
+
+- **🏫 Classroom Impact:**  
+  This method can be used for icebreakers, group discussions, or peer reviews—encouraging diverse voices and deeper connections.
+
+**🔗 Link to Notebook:**  
+[Round Robin Scheduling Notebook](https://colab.research.google.com/drive/1z0kG9HYo_3Smhy8Mr5i0aPBcayEid1lM?usp=sharing)
