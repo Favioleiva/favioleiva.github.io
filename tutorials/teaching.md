@@ -38,4 +38,4 @@ By ensuring that each student is paired with every other exactly once, it breaks
   This method can be used for icebreakers, group discussions, or peer reviews—encouraging diverse voices and deeper connections.
 
 **🔗 Link to Notebook:**  
-[Round Robin Scheduling Notebook](https://colab.research.google.com/drive/1z0kG9HYo_3Smhy8Mr5i0aPBcayEid1lM?usp=sharing)
+[Round Robin Scheduling Notebook](https://colab.research.google.com/drive/1amcDkZxlGM8o8GpZVOiErWW_IAoOy1s3?usp=sharing)
