@@ -14,3 +14,9 @@ In this code, we are generating a QR code that links to a general URL (`https://
 
 You can view and try the full code [here](https://github.com/Favioleiva/favioleiva.github.io/blob/c24823d28d6d8d8cb278ac4e66e88f96ca938671/tutorials/python/QrCode.ipynb)
 
+## 3. Mankiw, Romer and Weil (1992). The Solow Growth Model and its Convergence Prediction. A replication with Python
+
+I updated Professor Méndez’s original R code to Python. The empirical analysis of economic growth presented by Mankiw, Romer, and Weil (1992), focusing on the Solow Growth Model, is replicated here. This Python implementation allows us to explore the Solow model’s alignment with cross-country data, including the augmented Solow model and its implications for convergence in living standards—specifically, whether poorer countries tend to grow faster than richer ones. In the notebook, code is included to read and manipulate a Stata dataset, define the key variables of the Solow model, run both unrestricted and restricted regressions, conduct F-tests to evaluate model restrictions, and calculate implied parameters such as alpha and beta. Both conditional and unconditional convergence are assessed, with relevant visualizations provided. The translation of the code into Python was completed with the assistance of ChatGPT. 
+
+You can view and try the full code [here](https://colab.research.google.com/drive/1mTgF08Jbf6oNxONbGHyWJZrkygiX0E9N?usp=sharing#scrollTo=EPT2gYvVf_Qk).
+You can view additional professor Mendez's tutorials here: [here](https://carlos-mendez.org/).
