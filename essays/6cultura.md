@@ -5,7 +5,7 @@ permalink: /essays/cultura
 ---
 <center> <h1>Sobre la cultura peruana*</h1> </center>
 
-<h3>🎧 Puedes escuchar el artículo aquí: alrededor de 10 minutos</h3>
+<h3>🎧 Puedes escuchar el artículo aquí</h3>
 <audio controls>
   <source src="/audio/sobreLaCulturaPeruanaLeiva2025.mp3" type="audio/mpeg">
   Tu navegador no soporta audio HTML5.
