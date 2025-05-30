@@ -14,6 +14,8 @@ Esta sección presenta mis pensamientos en ensayos breves, normalmente de menos 
 
 This section presents my thoughts in short essays, normally shorter than one thousand words. These essays communicate my beliefs, ideology, feelings, sometimes poetry, and other ideas. This is the part of the website dedicated to Other Arts. However, because I sometimes have short thoughts on economics and geography, don't be surprised if you find something on these topics here too. Since my thoughts are mainly in Spanish and English, to ensure balance, I will do my best to publish essays in both languages alternately regularly.
 
+31/05/2025 [Nuestras obligaciones con los adultos mayores](essays/7obligaciones.md)
+
 21/05/2025 [Sobre la cultura peruana](essays/6cultura.md)
 
 29/07/2024 [Caligrafía](essays/5caligrafia.md)
