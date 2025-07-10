@@ -20,7 +20,7 @@ Muchas veces damos por sentado algo tan simple como respirar. Sin embargo, respi
 <div style="text-align: center;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/XTb9GNIxpMk?si=cRreaRiVB7dgPaLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   <p style="font-size: 0.9em; color: #555; margin-top: 8px;">
-    🎵 <em>Just Breathe</em>, interpretado por Pearl Jam.
+    🎵 <em>Just Breathe</em>, interpretado por Pearl Jam. Una de mis bandas favoritas. La canción que me acompañó durante esta semana.
   </p>
 </div>
 
