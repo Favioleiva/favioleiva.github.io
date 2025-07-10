@@ -17,7 +17,13 @@ Favio Leiva
 
 Muchas veces damos por sentado algo tan simple como respirar. Sin embargo, respirar es, en esencia, lo que marca la frontera entre seguir vivo y estirar la pata; entre tomar un cafecito con nuestra gente o que ellos lo tomen para despedirnos.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XTb9GNIxpMk?si=cRreaRiVB7dgPaLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="text-align: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/XTb9GNIxpMk?si=cRreaRiVB7dgPaLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <p style="font-size: 0.9em; color: #555; margin-top: 8px;">
+    🎵 <em>Just Breathe</em>, interpretado por Pearl Jam.
+  </p>
+</div>
+
 
 El asma ha regresado. De niño, era algo frecuente, y mi salud pulmonar nunca ha sido la mejor. Esta es la primera vez que soy atendido por un neumólogo en Japón, y también la primera vez que me miden los niveles de óxido nítrico en el aire exhalado —una prueba clave para detectar inflamación eosinofílica. Gracias a eso, se puede distinguir con claridad una crisis asmática de un proceso gripal, ya que el óxido nítrico aumenta cuando hay inflamación en las vías respiratorias causada por eosinófilos.
 
