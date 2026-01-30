@@ -16,12 +16,12 @@ This section features recordings of music I perform on guitar, ukulele, bass, ka
 
 <h3>🎧 31/01/2026 Ukulele Sketch N°1 </h3>
 <audio controls>
-  <source src="/audio/MistisTearUkuleleImpro1.mp3" type="audio/mpeg">
+  <source src="/audio/UkuleleSketch1.mp3" type="audio/mpeg">
   Tu navegador no soporta audio HTML5.
 </audio>
 
 <h3>🎧 29/05/2025 Misti's Tears - Lágrimas del Misti - Improvisación </h3>
 <audio controls>
-  <source src="/audio/UkuleleSketch1.mp3" type="audio/mpeg">
+  <source src="/audio/MistisTearUkuleleImpro1.mp3" type="audio/mpeg">
   Tu navegador no soporta audio HTML5.
 </audio>
