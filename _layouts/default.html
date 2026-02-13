@@ -3,7 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} — Favio Leiva</title>
+    <meta name="description" content="Favio Leiva's personal academic website — Economics, Geography, Photography, Music and Other Arts.">
+    <meta property="og:title" content="{{ page.title }} — Favio Leiva">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://favioleiva.github.io{{ page.url }}">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
     <link rel="icon" href="{{ '/images/favicon.png' | relative_url }}" type="image/png">
     <link rel="shortcut icon" href="{{ '/images/favicon.png' | relative_url }}" type="image/png">
@@ -17,33 +27,12 @@
       gtag('config', 'G-HJDXQNTL8V');
     </script>
 
-    <!-- Agrega el script de Font Awesome -->
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/66fbeebd3b.js" crossorigin="anonymous"></script>
-
-    <!-- Estilos personalizados para los iconos de contacto -->
-    <style>
-        .contact-icons {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .contact-icons a {
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            color: #000;
-            font-size: 1.5em;
-        }
-
-        .contact-icons i {
-            margin-right: 8px;
-        }
-    </style>
 </head>
 <body>
     <header>
-        <h1>Economics, Geography and Other Arts</h1>
+        <h1>Economics, Geography &amp; Other Arts</h1>
         <nav>
             <ul>
                 <li><a href="{{ '/' | relative_url }}">Home</a></li>
@@ -59,5 +48,8 @@
     <main>
         {{ content }}
     </main>
+    <footer>
+        &copy; 2025 Favio Leiva Cárdenas · Nagoya, Japan
+    </footer>
 </body>
 </html>
