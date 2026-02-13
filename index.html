@@ -3,85 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Economics, Geography and Other Arts</title>
+    <title>Favio Leiva — Economics, Geography and Other Arts</title>
+    <meta name="description" content="PhD researcher at Nagoya University exploring mining, agriculture, and regional development in Peru through spatial econometrics and satellite data.">
+    <meta property="og:title" content="Favio Leiva — Economics, Geography and Other Arts">
+    <meta property="og:description" content="PhD researcher at Nagoya University. Mining, spatial econometrics, music, and photography.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://favioleiva.github.io/">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="/images/favicon.png" type="image/png">
     <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HJDXQNTL8V"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-HJDXQNTL8V');
     </script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 10px;
-        }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
-        main {
-            padding: 2rem;
-            max-width: 900px;
-            margin: auto;
-        }
-        section {
-            margin-bottom: 2rem;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        img {
-            max-width: 300px; /* Ajustar tamaño de la imagen */
-            height: auto;
-        }
-        div {
-            overflow: hidden;
-            margin-bottom: 20px;
-        }
-        div img {
-            float: right;
-            margin-left: 15px;
-            margin-bottom: 15px;
-        }
-        p {
-            text-align: justify; /* Justificar párrafos */
-        }
-    </style>
 </head>
 <body>
     <header>
-        <h1>Economics, Geography and Other Arts</h1>
+        <h1>Economics, Geography &amp; Other Arts</h1>
         <nav>
             <ul>
-                <li><a href="/">Home</a></li>
+                <li><a href="/" class="active">Home</a></li>
                 <li><a href="publications/">Publications</a></li>
                 <li><a href="presentations/">Presentations</a></li>
                 <li><a href="tutorials/">Tutorials</a></li>
@@ -91,19 +43,66 @@
             </ul>
         </nav>
     </header>
+
     <main>
-    <section>
-    <center> <h1>Favio Leiva (狐獅子)</h1> </center>
-    <div>
-        <img src="/images/1.Principal.jpg" alt="Imagen Principal">
-        <p>Hello! I'm Favio, a forever student and explorer currently pursuing my PhD in International Development at Nagoya University, building upon my earlier achievements of a Master of Arts in International Development in the same Faculty. Alongside my academic journey, I am an Affiliated Researcher at the Center for Mining and Sustainability Studies and the Center for China and Asia-Pacific Studies at Universidad del Pacífico (UP), where I earned my Bachelor of Economics degree. Economics is my profession and I think I have found a way to make a passion out of it.</p>
-        <p>My main research currently delves into the dynamics between mining, agriculture, and ethnicity in Peru. Leveraging spatial econometrics, I try to unravel the complexities of these interactions using data from different sources. Data is paramount in what I do. My research is data driven. However, I am in constant discussion with reflections on the issue that come from different Natural and Social Scientists and even Artists or other thinkers. Needless to say, listening to what all involved in the mining activities have to say is a key part of my research. Knowing the impact of mining on income, health and conflict and its interaction with agriculture and the different ethnic groups my country has is the focus of my research.</p>
-        <p>Besides my main research, I explore different issues such as historical nuances of international trade, with focus on Japan, economic transition, public debt, and gender division of labor. I have even conducted research on guinea pigs in Peru! As long as there is data, I am interested. I am, in part, a Historian and Futurist, Philosopher and Mathematician. I want to learn the language of Humans and the language of Machines.</p>
-        <p>Beyond academia, I have other facets with a deep love for the arts and technology. I express my creativity through amateur photography, and I find solace and joy in expressing myself through singing, strumming my guitar, and dancing. As a hobbyist programmer, I enjoy exploring the boundless possibilities of technology.</p>
-        <p>While I enjoy working independently, I'm also open to collaborative opportunities if our interests align. If you're passionate about the issues I've mentioned and would like to collaborate, don't hesitate to reach out. Maybe it's a match! Who knows?</p>
-        <p>Thank you for visiting my page; I hope you discover valuable tools for your research and, most importantly, have fun!</p>
-    </div>
-    </section>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-image">
+                <img src="/images/1.Principal.jpg" alt="Favio Leiva">
+            </div>
+            <div class="hero-text">
+                <h1>Favio Leiva<br><span style="font-size: 0.5em; font-weight: 400; font-style: italic; color: var(--color-muted);">狐獅子</span></h1>
+                <p class="subtitle">PhD Researcher · Nagoya University · GSID</p>
+                <p>Hello! I'm Favio, a forever student and explorer currently pursuing my PhD in International Development at Nagoya University, building upon my earlier achievements of a Master of Arts in International Development in the same Faculty. Alongside my academic journey, I am an Affiliated Researcher at the Center for Mining and Sustainability Studies and the Center for China and Asia-Pacific Studies at Universidad del Pacífico (UP), where I earned my Bachelor of Economics degree. Economics is my profession and I think I have found a way to make a passion out of it.</p>
+                <p>My main research currently delves into the dynamics between mining, agriculture, and ethnicity in Peru. Leveraging spatial econometrics, I try to unravel the complexities of these interactions using data from different sources. Data is paramount in what I do. My research is data driven. However, I am in constant discussion with reflections on the issue that come from different Natural and Social Scientists and even Artists or other thinkers.</p>
+            </div>
+        </section>
+
+        <!-- More About -->
+        <section>
+            <p>Besides my main research, I explore different issues such as historical nuances of international trade, with focus on Japan, economic transition, public debt, and gender division of labor. I have even conducted research on guinea pigs in Peru! As long as there is data, I am interested. I am, in part, a Historian and Futurist, Philosopher and Mathematician. I want to learn the language of Humans and the language of Machines.</p>
+            <p>Beyond academia, I have other facets with a deep love for the arts and technology. I express my creativity through amateur photography, and I find solace and joy in expressing myself through singing, strumming my guitar, and dancing. As a hobbyist programmer, I enjoy exploring the boundless possibilities of technology.</p>
+            <p>While I enjoy working independently, I'm also open to collaborative opportunities if our interests align. If you're passionate about the issues I've mentioned and would like to collaborate, don't hesitate to reach out. Maybe it's a match! Who knows?</p>
+            <p>Thank you for visiting my page; I hope you discover valuable tools for your research and, most importantly, have fun!</p>
+        </section>
+
+        <!-- Navigation Cards -->
+        <div class="section-cards">
+            <a href="publications/" class="section-card">
+                <span class="card-icon">📄</span>
+                <div class="card-title">Publications</div>
+                <div class="card-desc">Academic papers, book chapters &amp; reports</div>
+            </a>
+            <a href="presentations/" class="section-card">
+                <span class="card-icon">🎤</span>
+                <div class="card-title">Presentations</div>
+                <div class="card-desc">Talks, conferences &amp; slides</div>
+            </a>
+            <a href="tutorials/" class="section-card">
+                <span class="card-icon">💻</span>
+                <div class="card-title">Tutorials</div>
+                <div class="card-desc">Python, GeoDa, Redatam &amp; more</div>
+            </a>
+            <a href="essays/" class="section-card">
+                <span class="card-icon">✍️</span>
+                <div class="card-title">Essays</div>
+                <div class="card-desc">Short reflections on life, art &amp; ideas</div>
+            </a>
+            <a href="music/" class="section-card">
+                <span class="card-icon">🎸</span>
+                <div class="card-title">Music</div>
+                <div class="card-desc">Guitar, ukulele &amp; compositions</div>
+            </a>
+            <a href="contact/" class="section-card">
+                <span class="card-icon">✉️</span>
+                <div class="card-title">Contact</div>
+                <div class="card-desc">Get in touch &amp; download CV</div>
+            </a>
+        </div>
     </main>
+
+    <footer>
+        &copy; 2025 Favio Leiva Cárdenas · Nagoya, Japan
+    </footer>
 </body>
 </html>
