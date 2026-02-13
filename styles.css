@@ -149,16 +149,19 @@ main {
   padding: 2rem 1.5rem 3rem;
 }
 
-/* --- Hero (Index) --- */
+/* --- Hero (Float-based: text wraps around image) --- */
 .hero {
-  display: grid;
-  grid-template-columns: 250px 1fr;
-  gap: 2rem;
-  align-items: start;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
   animation: fadeInUp 0.6s var(--ease-smooth) both;
+  overflow: hidden; /* contain the float */
 }
-.hero-image { position: relative; }
+
+.hero-image {
+  float: left;
+  width: 250px;
+  margin: 0 2rem 1rem 0;
+  position: relative;
+}
 .hero-image img {
   width: 100%;
   height: auto;
@@ -179,6 +182,7 @@ main {
   z-index: -1;
   opacity: 0.3;
 }
+
 .hero-text h1 {
   font-size: 2.2rem;
   margin-bottom: 0.25rem;
@@ -202,11 +206,6 @@ main {
   font-weight: 500;
 }
 .hero-text p { font-size: 0.97rem; }
-
-/* --- About Continued --- */
-.about-continued { margin-bottom: 1.5rem; }
-.about-continued p { font-size: 0.97rem; }
-.about-continued p:last-child { margin-bottom: 0; }
 
 /* --- Section Cards --- */
 .section-cards {
@@ -412,13 +411,13 @@ footer {
   nav ul { gap: 0.15rem 1rem; }
   nav ul li a { font-size: 0.72rem; }
   main { padding: 1.5rem 1rem 2rem; }
-  .hero {
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
-    text-align: center;
+  .hero-image {
+    float: none;
+    width: 200px;
+    margin: 0 auto 1.25rem;
   }
-  .hero-image { max-width: 200px; margin: 0 auto; }
   .hero-image::after { display: none; }
+  .hero-text { text-align: center; }
   .hero-text h1 { font-size: 1.8rem; }
   .hero-text p { text-align: left; }
   .section-cards { grid-template-columns: repeat(2, 1fr); }
