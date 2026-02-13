@@ -366,6 +366,25 @@ main {
 /* --- Images --- */
 img { max-width: 100%; height: auto; display: block; }
 
+/* --- Table images (tutorials, etc.) --- */
+table img {
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 200px;
+  height: auto;
+}
+table td, table th {
+  text-align: center;
+  vertical-align: middle;
+}
+table td a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: none;
+}
+table td a:hover { border-bottom: none; }
+
 /* --- Tables --- */
 table {
   width: 100%;
