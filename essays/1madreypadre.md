@@ -1,14 +1,12 @@
 ---
-layout: default
+layout: essay
 title: "Honrarás a tu madre y a tu padre"
 permalink: /essays/honrarmadreypadre
+date_str: "16 Jun 2024"
+lang: "Español"
 ---
 
-<center> <h1>Honrarás a tu madre y a tu padre</h1> </center>
-
 <img src="/images/Faviocon.jpg" alt="Faviocon" style="width: 100%; height: auto; max-width: 600px;">
-
-16/06/2024
 
 En el mundo andino, el zorro ocupa un lugar especial. Es de conocimiento universal su astucia, pero poco se habla de la benevolencia de este animal. Es por este animal que llega el conocimiento de la agricultura a la humanidad. En el mundo andino, existen 3 dimensiones espacio-temporales: el *kai-pacha* (el mundo de aquí), el *uku pacha* (el mundo de abajo) y el *hanan pacha* (el mundo de arriba). En general, los animales y los humanos pertenecen a uno de estos planos, pero el zorro andino jamás se siente cómodo en ningún lado. Estos conceptos andinos se mezclarían de alguna forma con conceptos cristianos como cielo o infierno, pero no tienen mucho que ver con tales cosas porque en el mundo de abajo también hay bondad: ¿de dónde piensan que brotan las raíces de los árboles? ¿de dónde piensan que salen los metales preciosos? De más está decir que soy un fanático de la mitología andina, especialmente de la figura del zorro. Este viaja constantemente entre todos estos lugares y no existe un espacio que llame casa propiamente porque nunca está a gusto. La vagancia es su esencia. Yo soy de esta especie.
 
