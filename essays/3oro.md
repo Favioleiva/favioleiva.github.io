@@ -1,15 +1,18 @@
 ---
-layout: default
+layout: essay
 title: "Algunas reflexiones sobre la concentración de oro en Perú: 2001-2023"
 permalink: /essays/concentracionoro
+date_str: "1 Jul 2024"
+lang: "Español"
 ---
 
-<center> <h1>Algunas reflexiones sobre la concentración de oro en Perú: 2001-2023*</h1> </center>
+🎧 **Escucha este ensayo:**
+<audio controls>
+  <source src="/audio/3oro.mp3" type="audio/mpeg">
+</audio>
 
 <iframe src="/images/concentracion_de_oro_por_año_y_distrito.html" style="width: 100%; height: 600px; max-width: 5000px; border: none;" title="Concentration de Oro por Año y Distrito"></iframe>
 Fuente: Elaboración propia con base en los anuarios del Ministerio de Energía y Minas
-
-01/07/2024
 
 Encontrar información sobre la producción de oro en Perú, incluso a nivel de operación minera, es relativamente fácil. Todo esto se puede encontrar en el anuario de estadísticas publicado por el Ministerio de Energía y Minas. Sin embargo, la información no es consistente y limpiar los datos es el verdadero reto. En este pequeño ensayo quiero reflexionar un poco sobre las tendencias reales de la producción legal de oro. Naturalmente, uno no espera que en el anuario del Ministerio se publique información sobre la producción de los mineros ilegales. Sin embargo, hay un grupo de mineros que estuvo o está en proceso de formalización (especialmente en la Selva o en las zonas del Norte del país). En este ensayo solo nos enfocamos en la concentración de oro, no nos ocupamos ni de la refinación ni la fundición de oro.
 
