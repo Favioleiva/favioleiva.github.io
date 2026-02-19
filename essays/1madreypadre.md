@@ -5,6 +5,10 @@ permalink: /essays/honrarmadreypadre
 date_str: "16 Jun 2024"
 lang: "Español"
 ---
+<h3>🎧 Puedes escuchar el artículo aquí</h3>
+<audio controls>
+  <source src="/audio/1madreypadre.mp3" type="audio/mpeg">
+</audio>
 
 <img src="/images/Faviocon.jpg" alt="Faviocon" style="width: 100%; height: auto; max-width: 600px;">
 
