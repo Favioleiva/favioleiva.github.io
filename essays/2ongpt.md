@@ -1,12 +1,15 @@
 ---
-layout: default
+layout: essay
 title: "Some reflections on GPT"
 permalink: /essays/ongpt
+date_str: "23 Jun 2024"
+lang: "English"
 ---
 
-<center> <h1>Some reflections on GPT</h1> </center>
-
-23/06/2024
+🎧 **Listen to this essay:**
+<audio controls>
+  <source src="/audio/2ongpt.mp3" type="audio/mpeg">
+</audio>
 
 This essay portrays some reflections on GPT and how we can use it to improve the speed of our workflow minimizing mistakes and revisions. 
 
