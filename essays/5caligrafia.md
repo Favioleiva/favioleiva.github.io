@@ -1,9 +1,15 @@
 ---
-layout: default
-title: "Caligrafía"
+layout: essay
+title: "Caligrafía*"
 permalink: /essays/caligrafia
+date_str: "29 Jul 2024"
+lang: "Español"
 ---
-<center> <h1>Caligrafía*</h1> </center>
+
+🎧 **Escucha este ensayo:**
+<audio controls>
+  <source src="/audio/5caligrafia.mp3" type="audio/mpeg">
+</audio>
 
 <img src="/images/Logo2.png" alt="Shodo" style="width: 100%; height: auto; max-width: 600px;">
 Fuente: Hecho a mano usando Illustrator.
