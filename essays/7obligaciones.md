@@ -1,17 +1,15 @@
 ---
-layout: default
-title: "Obligaciones"
+layout: essay
+title: "Nuestras obligaciones con los adultos mayores"
 permalink: /essays/obligaciones
+date_str: "31 May 2025"
+lang: "Español"
 ---
-<center> <h1>Nuestras obligaciones con los adultos mayores</h1> </center>
 
-<h3>🎧 Puedes escuchar el artículo aquí</h3>
+🎧 **Escucha este ensayo:**
 <audio controls>
-  <source src="/audio/ObligacionesAdultosMayoresLeiva2025.mp3" type="audio/mpeg">
-  Tu navegador no soporta audio HTML5.
+  <source src="/audio/7obligaciones.mp3" type="audio/mpeg">
 </audio>
-
-31/05/2025
 
 Todo lo que nos rodea —las calles, los parques, los edificios, la infraestructura pública— es fruto del trabajo de quienes vinieron antes que nosotros. Ese legado, construido durante décadas, representa un capital público heredado. Sin embargo, rara vez pensamos en lo que eso implica: una deuda moral con nuestros antecesores, muchos de los cuales ya no están. Aunque no exista una forma directa de “pagarles”, el simple hecho de que hoy gocemos de sus frutos nos impone responsabilidades.
 
