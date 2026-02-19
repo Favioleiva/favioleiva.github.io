@@ -1,17 +1,15 @@
 ---
-layout: default
+layout: essay
 title: "Aire"
 permalink: /essays/aire
+date_str: "8 Jul 2025"
+lang: "Español"
 ---
-<center> <h1>Aire</h1> </center>
 
-<h3>🎧 Puedes escuchar el artículo aquí</h3>
+🎧 **Escucha este ensayo:**
 <audio controls>
-  <source src="/audio/aire2025.mp3" type="audio/mpeg">
-  Tu navegador no soporta audio HTML5.
+  <source src="/audio/8aire.mp3" type="audio/mpeg">
 </audio>
-
-08/07/2025
 
 Favio Leiva
 
