@@ -1,14 +1,18 @@
 ---
-layout: default
+layout: essay
 title: "On photography, beauty, truth and politics"
 permalink: /essays/photographybeautytruth
+date_str: "7 Jul 2024"
+lang: "English"
 ---
-<center> <h1>On photography, beauty, truth and politics*</h1> </center>
+
+🎧 **Listen to this essay:**
+<audio controls>
+  <source src="/audio/4photography.mp3" type="audio/mpeg">
+</audio>
 
 <img src="/images/Dragons.jpg" alt="Dragons" style="width: 100%; height: auto; max-width: 600px;">
 Source: Leiva (2024). Dragons in Osu Kannon.
-
-07/07/2024
 
 As you know, I have this photography hobby. I’m not a professional, but I have many years of learning. You could say I am a mid-term amateur in the field. The paradox lies in that I used to hate photography, but somehow life, work, necessity, and reality showed me that photography constitutes an important art and an important data source. Thinking about photography should make us aware that what we see is not reality itself (objectively), but reality from a specific perspective, with a certain tool (organ) in a certain interval of time.
 
