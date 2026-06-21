@@ -1,0 +1,807 @@
+---
+layout: essay
+title: "Monthly VIIRS-like Nighttime Lights for Indonesia and Bolivia, 1992–2024"
+permalink: /essays/boliviaindonesiaviirslike
+date_str: "21 Jun 2026"
+lang: "English"
+---
+<style>
+
+  /* Page-local bridge: preserve the standalone article inside layout: essay. */
+  .essay-header {
+    display: none;
+  }
+
+  .essay-body {
+    max-width: none;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+  }
+
+  .essay-body .ntl-essay p::first-letter {
+    float: none;
+    margin: 0;
+    font: inherit;
+    line-height: inherit;
+    color: inherit;
+  }
+
+  .ntl-essay img {
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+    .ntl-essay {
+      --ink: #1b1d24;
+      --muted: #5e6472;
+      --soft: #f7f4f1;
+      --panel: #ffffff;
+      --line: #e7e1dc;
+      --accent: #bd155f;
+      --accent-dark: #8f0f47;
+      --gold: #d79b24;
+      --code-bg: #f4f0ec;
+      --maxw: 980px;
+    }
+
+    .ntl-essay, .ntl-essay * {
+      box-sizing: border-box;
+    }
+
+    .ntl-essay {
+      scroll-behavior: smooth;
+    }
+
+    .ntl-essay {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% 0%, rgba(189, 21, 95, .10), transparent 28rem),
+        radial-gradient(circle at 90% 8%, rgba(215, 155, 36, .12), transparent 26rem),
+        linear-gradient(180deg, #fff 0%, var(--soft) 100%);
+      font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.68;
+      font-size: 17px;
+    }
+
+    .ntl-essay a {
+      color: var(--accent-dark);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(189, 21, 95, .28);
+    }
+
+    .ntl-essay a:hover {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    .ntl-essay .page {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 38px 24px 72px;
+    }
+
+    .ntl-essay header.hero {
+      margin: 28px auto 34px;
+      padding: 48px 44px 42px;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: rgba(255, 255, 255, .82);
+      box-shadow: 0 24px 70px rgba(28, 25, 23, .08);
+      backdrop-filter: blur(6px);
+    }
+
+    .ntl-essay .eyebrow {
+      margin: 0 0 16px;
+      color: var(--accent-dark);
+      font-size: .83rem;
+      font-weight: 750;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .ntl-essay h1 {
+      margin: 0;
+      max-width: 880px;
+      font-size: clamp(2.4rem, 5vw, 4.6rem);
+      line-height: .98;
+      letter-spacing: -.055em;
+      font-weight: 850;
+    }
+
+    .ntl-essay .subtitle {
+      max-width: 800px;
+      margin: 24px 0 0;
+      color: var(--muted);
+      font-size: clamp(1.05rem, 2.2vw, 1.33rem);
+      line-height: 1.55;
+    }
+
+    .ntl-essay .byline {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 18px;
+      align-items: center;
+      margin-top: 26px;
+      color: var(--muted);
+      font-size: .98rem;
+    }
+
+    .ntl-essay .byline strong {
+      color: var(--ink);
+      font-weight: 750;
+    }
+
+    .ntl-essay .toc {
+      margin: 24px 0 38px;
+      padding: 18px 22px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: rgba(255, 255, 255, .72);
+    }
+
+    .ntl-essay .toc h2 {
+      margin: 0 0 8px;
+      font-size: .9rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .ntl-essay .toc nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+    }
+
+    .ntl-essay .toc a {
+      font-size: .95rem;
+      border-bottom: 0;
+    }
+
+    .ntl-essay main {
+      background: rgba(255, 255, 255, .72);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      padding: 18px 0 10px;
+      box-shadow: 0 18px 48px rgba(28, 25, 23, .045);
+    }
+
+    .ntl-essay section {
+      padding: 14px 44px;
+    }
+
+    .ntl-essay h2 {
+      margin: 0 0 14px;
+      font-size: clamp(1.55rem, 3vw, 2.2rem);
+      line-height: 1.15;
+      letter-spacing: -.035em;
+    }
+
+    .ntl-essay p {
+      margin: 0 0 1.05rem;
+    }
+
+    .ntl-essay .abstract {
+      padding-top: 22px;
+    }
+
+    .ntl-essay .abstract-box {
+      border-left: 5px solid var(--accent);
+      background: #fff;
+      border-radius: 18px;
+      padding: 22px 24px 20px;
+      box-shadow: 0 12px 34px rgba(28, 25, 23, .055);
+    }
+
+    .ntl-essay .abstract-box h2 {
+      margin-top: 0;
+      font-size: 1.12rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--accent-dark);
+    }
+
+    .ntl-essay .citation {
+      white-space: nowrap;
+      font-weight: 520;
+    }
+
+    .ntl-essay figure {
+      margin: 28px 0 34px;
+      padding: 14px 14px 0;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: #fff;
+      box-shadow: 0 16px 42px rgba(28, 25, 23, .06);
+    }
+
+    .ntl-essay figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 14px;
+    }
+
+    .ntl-essay figcaption {
+      padding: 14px 4px 18px;
+      color: var(--muted);
+      font-size: .94rem;
+      line-height: 1.5;
+    }
+
+    .ntl-essay figcaption strong {
+      color: var(--ink);
+    }
+
+    .ntl-essay .callout {
+      margin: 24px 0;
+      padding: 20px 22px;
+      border: 1px solid rgba(189, 21, 95, .20);
+      border-radius: 20px;
+      background: linear-gradient(135deg, rgba(189, 21, 95, .08), rgba(215, 155, 36, .08));
+    }
+
+    .ntl-essay .callout h3 {
+      margin: 0 0 8px;
+      font-size: 1.08rem;
+      color: var(--accent-dark);
+    }
+
+    .ntl-essay .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 18px;
+    }
+
+    .ntl-essay .card {
+      min-height: 116px;
+      padding: 18px 18px 16px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #fff;
+    }
+
+    .ntl-essay .card h3 {
+      margin: 0 0 8px;
+      font-size: 1rem;
+      line-height: 1.3;
+    }
+
+    .ntl-essay .card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .94rem;
+      line-height: 1.48;
+    }
+
+    .ntl-essay .video-frame {
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #000;
+      box-shadow: 0 16px 42px rgba(28, 25, 23, .06);
+    }
+
+    .ntl-essay .video-frame iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .ntl-essay .video-print-link {
+      display: none;
+    }
+
+    .ntl-essay .references ol {
+      padding-left: 1.15rem;
+      margin: 0;
+    }
+
+    .ntl-essay .references li {
+      margin-bottom: 1.05rem;
+      padding-left: .3rem;
+    }
+
+    .ntl-essay .reference-title {
+      font-weight: 650;
+    }
+
+    .ntl-essay .smallcaps {
+      font-variant: small-caps;
+      letter-spacing: .02em;
+    }
+
+    .ntl-essay footer {
+      margin: 28px auto 0;
+      max-width: var(--maxw);
+      color: var(--muted);
+      font-size: .9rem;
+      text-align: center;
+    }
+
+    @media (max-width: 760px) {
+      .ntl-essay .page {
+        padding: 18px 14px 54px;
+      }
+
+      .ntl-essay header.hero {
+        padding: 34px 24px;
+        border-radius: 22px;
+      }
+
+      .ntl-essay main {
+        border-radius: 22px;
+      }
+
+      .ntl-essay section {
+        padding: 12px 22px;
+      }
+
+      .ntl-essay .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .ntl-essay .byline {
+        display: block;
+      }
+
+      .ntl-essay .byline span {
+        display: block;
+        margin-top: 5px;
+      }
+    }
+
+    @media print {
+      @page {
+        margin: 18mm 15mm 20mm;
+
+        @bottom-center {
+          content: "Page " counter(page) " of " counter(pages);
+          color: #5e6472;
+          font-family: "Segoe UI", Arial, sans-serif;
+          font-size: 9pt;
+        }
+      }
+
+      .ntl-essay {
+        background: #fff;
+        font-size: 10.5pt;
+        line-height: 1.5;
+      }
+
+      .ntl-essay .page {
+        max-width: none;
+        padding: 0;
+      }
+
+      .ntl-essay header.hero,
+
+
+      .ntl-essay main,
+
+
+      .ntl-essay .toc,
+
+
+      .ntl-essay figure,
+
+
+      .ntl-essay .card,
+
+
+      .ntl-essay .abstract-box {
+        box-shadow: none;
+        background: #fff;
+      }
+
+      .ntl-essay header.hero {
+        border: 0;
+        margin: 0;
+        padding: 0 0 12pt;
+      }
+
+      .ntl-essay h1 {
+        font-size: 26pt;
+        line-height: 1.05;
+      }
+
+      .ntl-essay .subtitle {
+        margin-top: 10pt;
+        font-size: 12pt;
+        line-height: 1.4;
+      }
+
+      .ntl-essay .byline {
+        margin-top: 10pt;
+      }
+
+      .ntl-essay .toc {
+        display: none;
+      }
+
+      .ntl-essay main {
+        border: 0;
+        border-radius: 0;
+        padding: 0;
+      }
+
+      .ntl-essay section {
+        padding: 5pt 0;
+      }
+
+      .ntl-essay h2,
+
+
+      .ntl-essay h3 {
+        break-after: avoid;
+      }
+
+      .ntl-essay p {
+        margin-bottom: 8pt;
+        orphans: 3;
+        widows: 3;
+      }
+
+      .ntl-essay a {
+        color: inherit;
+        border-bottom: 0;
+      }
+
+      .ntl-essay figure {
+        margin: 12pt 0 16pt;
+      }
+
+      .ntl-essay figure,
+
+
+      .ntl-essay .abstract-box,
+
+
+      .ntl-essay .callout {
+        break-inside: avoid;
+      }
+
+      .ntl-essay .grid {
+        display: block;
+        margin-top: 8pt;
+      }
+
+      .ntl-essay .card {
+        min-height: 0;
+        margin: 0 0 6pt;
+        padding: 8pt 10pt;
+        border-radius: 8pt;
+        break-inside: avoid-page;
+        page-break-inside: avoid;
+      }
+
+      .ntl-essay .card h3 {
+        margin-bottom: 2pt;
+        font-size: 10.5pt;
+      }
+
+      .ntl-essay .card p {
+        margin: 0;
+        font-size: 9.5pt;
+        line-height: 1.35;
+      }
+
+      .ntl-essay .card a,
+
+
+      .ntl-essay .references a,
+      .ntl-essay .video-print-link a {
+        color: #0b57d0;
+        text-decoration: underline;
+        text-decoration-thickness: .6pt;
+        text-underline-offset: 1.5pt;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+      }
+
+      .ntl-essay .video-frame {
+        display: none;
+      }
+
+      .ntl-essay .video-print-link {
+        display: block;
+        margin: 0;
+      }
+
+      .ntl-essay .references li {
+        margin-bottom: 7pt;
+        break-inside: avoid-page;
+        page-break-inside: avoid;
+      }
+    }
+  
+</style>
+
+<div class="ntl-essay">
+<div class="page">
+    <header class="hero">
+      <p class="eyebrow">Exploratory research note</p>
+      <h1>Monthly VIIRS-like Nighttime Lights for Indonesia and Bolivia, 1992–2024</h1>
+      <p class="subtitle">A comparison of administrative-unit nighttime light trajectories, sensor-era transitions, and
+        the methodological opportunities opened by monthly VIIRS-like reconstructions.</p>
+      <div class="byline" aria-label="Article metadata">
+        <strong>Favio Leiva</strong>
+        <span>Indonesia and Bolivia monthly NTL panels</span>
+        <span>1992–2024</span>
+      </div>
+    </header>
+
+    <aside class="toc" aria-label="Contents">
+      <h2>Contents</h2>
+      <nav>
+        <a href="#abstract">Abstract</a>
+        <a href="#video">Video</a>
+        <a href="#motivation">Motivation</a>
+        <a href="#comparison">Country comparison</a>
+        <a href="#hypotheses">Empirical questions</a>
+        <a href="#caution">Causal caution</a>
+        <a href="#agenda">Research agenda</a>
+        <a href="#data">Data and replication</a>
+        <a href="#references">References</a>
+      </nav>
+    </aside>
+
+    <main>
+      <section id="abstract" class="abstract">
+        <div class="abstract-box">
+          <h2>Abstract</h2>
+          <p>This note presents a first visual comparison of monthly VIIRS-like nighttime light series for Indonesia and
+            Bolivia from 1992 to 2024. The comparison is useful because it places two very different national systems
+            under the same reconstructed monthly framework. Indonesia shows a visibly more unstable pattern during the
+            observed VIIRS era, while Bolivia displays a smoother trajectory, although the transition between
+            reconstructed and observed periods remains detectable. The central argument is not that the data are already
+            flawless. Rather, monthly VIIRS-like nighttime lights open an unusually rich agenda for causal inference,
+            spatial analysis, time-series diagnostics, and the study of periodic behavior, provided that researchers
+            validate the reconstruction carefully.</p>
+        </div>
+      </section>
+
+      <section id="video" class="video-section" aria-labelledby="video-title">
+        <h2 id="video-title">Video overview</h2>
+        <div class="video-frame">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/5hYZxLolI68?si=pboeKSyUkxulQW91"
+            title="Monthly VIIRS-like nighttime lights for Indonesia and Bolivia — video overview"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <p class="video-print-link">Video: <a href="https://youtu.be/5hYZxLolI68">https://youtu.be/5hYZxLolI68</a></p>
+      </section>
+
+      <section id="motivation">
+        <h2>1. Why monthly VIIRS-like nighttime lights matter</h2>
+        <p>Many efforts have attempted to harmonize DMSP and VIIRS nighttime light products. One strategy is to reduce
+          VIIRS information so that it resembles long-run DMSP-like series <a class="citation" href="#ref-li2020">Li et
+            al., 2020</a>; <a class="citation" href="#ref-tang2025">Tang et al., 2025</a>. For example, <a
+            class="citation" href="#ref-chiovelli2026">Chiovelli et al. (2026)</a> address DMSP saturation by extending
+          the maximum digital number beyond the conventional cap, but the resulting product still works within a
+          DMSP-centered framework. A second strategy moves in the opposite direction: it recalibrates or reconstructs
+          older nighttime light observations in order to produce VIIRS-like series <a class="citation"
+            href="#ref-chen2021">Chen et al., 2021</a>; <a class="citation" href="#ref-chen2024">Chen et al., 2024</a>.
+        </p>
+
+        <p>Most of these harmonization efforts operate at annual frequency. By contrast, <a class="citation"
+            href="#ref-cheng2026">Cheng et al. (2026)</a> construct a temporally consistent global monthly VIIRS-like
+          nighttime light dataset at 500 m resolution for 1992–2024, using convolutional neural networks and
+          satellite-based controls to reconstruct how VIIRS-like observations may have behaved before the beginning of
+          the VIIRS era. This monthly structure is the key novelty for empirical work: it allows researchers to study
+          dynamics that annual data necessarily hide.</p>
+
+        <p>One important difference between DMSP and VIIRS is the timing of observation during the night. This matters
+          because human behavior varies by hour: economic activity, electricity use, public lighting, religious events,
+          commercial schedules, and social rhythms may all affect measured lights differently across the night. A
+          country comparison therefore offers a useful first diagnostic. In this note, Indonesia and Bolivia are
+          compared using administrative boundaries from <a class="citation"
+            href="#ref-indonesia5142026">Indonesia514 by Mendez et al. (2026a)</a> and <a class="citation"
+            href="#ref-ds4bolivia2026">DS4Bolivia by Mendez et al. (2026b)</a>.</p>
+      </section>
+
+      <section id="comparison">
+        <h2>2. Indonesia and Bolivia as contrasting cases</h2>
+        <p>The first figure shows that Indonesia displays a relatively unstable pattern during the VIIRS era. The
+          administrative-unit trajectories become visibly noisier after 2012, and the national administrative-unit
+          average shows repeated short-run disturbances. This does not automatically mean that the Indonesian series are
+          unusable. It does mean that the observed VIIRS period should be treated as a period requiring additional
+          diagnostics rather than as a clean continuation of the reconstructed pre-VIIRS period.</p>
+
+        <figure id="fig-indonesia">
+          <img
+            src="{{ '/images/10boliviaindonesiaviirslike/10fig1.png' | relative_url }}"
+            alt="Spaghetti plot of monthly log nighttime lights in Indonesian districts, 1992 to 2024.">
+          <figcaption><strong>Figure 1.</strong> Monthly VIIRS-like nighttime lights in Indonesian districts, 1992–2024.
+            Thin lines represent district-level trajectories; the magenta line represents the Indonesian district
+            average. The vertical contrast after the beginning of the VIIRS era suggests the need for careful transition
+            diagnostics. The data were transformed using the following formula: ln(1000
+            &times; x<sub>it</sub> + 1).<br>
+          
+          Source: Own preparation based on <a class="citation" href="#ref-cheng2026">Cheng et al. (2026)</a> and <a class="citation" href="#ref-indonesia5142026">Mendez et al. (2026b)</a>.
+
+          
+          </figcaption>
+        </figure>
+
+        <p>The Bolivian series looks smoother. The municipal average rises gradually, and the post-2012 instability is
+          much less visually pronounced. However, the comparison should not be overinterpreted. Even in Bolivia, the
+          boundary between the reconstructed pre-VIIRS period and the observed VIIRS era remains detectable. The fact
+          that the transition is less dramatic does not make it irrelevant.</p>
+
+        <figure id="fig-bolivia">
+          <img
+            src="{{ '/images/10boliviaindonesiaviirslike/10fig2.png' | relative_url }}"
+            alt="Spaghetti plot of monthly log nighttime lights in Bolivian municipalities, 1992 to 2024.">
+          <figcaption>
+
+            <strong>Figure 2.</strong> Monthly VIIRS-like nighttime lights in Bolivian municipalities, 1992–2024. Thin
+            lines represent municipal trajectories, while the magenta line represents the average across Bolivian
+            municipalities. Compared with Indonesia, Bolivia shows a smoother post-2012 pattern, although the transition
+            into the observed VIIRS era remains visible. The data were transformed using the following formula: ln(1000
+            &times; x<sub>it</sub> + 1).<br>
+
+            Source: Own preparation based on <a class="citation" href="#ref-cheng2026">Cheng et al. (2026)</a> and <a class="citation" href="#ref-ds4bolivia2026">Mendez et al. (2026a)</a>.
+
+          </figcaption>
+        </figure>
+      </section>
+
+      <section id="hypotheses">
+        <h2>3. Empirical questions raised by the comparison</h2>
+        <p>Two questions follow from the contrast between the two countries. First, are the Indonesian fluctuations
+          related to the Islamic lunar calendar in Muslim-majority districts? Religious events such as Ramadan and Eid
+          move across the Gregorian calendar. Because these events may affect nighttime activity, commercial behavior,
+          electricity consumption, and illumination patterns, monthly data make it possible to ask whether some of the
+          observed variation follows lunar-calendar rhythms rather than conventional Gregorian seasonality.</p>
+
+        <p>Second, are the differences more pronounced in districts with higher levels of luminosity? Indonesian
+          districts are expected, on average, to be more luminous than Bolivian municipalities. If instability is
+          concentrated among brighter districts, the pattern may reflect how highly illuminated administrative units
+          respond to the observed VIIRS era, to urban activity, or to differences in the distribution of lights within
+          each unit.</p>
+
+        <div class="callout">
+          <h3>Diagnostic implication</h3>
+          <p>The figures should be read as an entry point for validation, not as final evidence. The next step is to
+            separate country-level patterns from unit-level luminosity, religious-calendar periodicity, sensor-era
+            transitions, and possible artifacts in the reconstruction.</p>
+        </div>
+      </section>
+
+      <section id="measurement">
+        <h2>4. Why raw DMSP remains limited</h2>
+        <p>DMSP products have a well-known saturation problem. In bright urban cores, digital numbers are capped at 63,
+          which makes the product less informative precisely where luminosity is most intense. A related issue in
+          nighttime light products is blooming or overglow: light appears to spill over into neighboring pixels,
+          affecting the spatial interpretation of illuminated areas. These limitations explain why VIIRS products are
+          usually preferable to raw DMSP products, as long as the reconstruction strategy used to extend VIIRS-like
+          information into the pre-2012 period is credible.</p>
+
+        <p>The promise of monthly VIIRS-like reconstructions is therefore substantial. They preserve more temporal and
+          spatial detail than traditional annual DMSP-based products and allow researchers to analyze short-run
+          dynamics. At the same time, the higher frequency also exposes problems that annual aggregation may conceal.
+          Structural breaks, sensor-related artifacts, seasonal cycles, country-specific patterns, and transition
+          effects must be studied transparently before these data are used in causal or long-term empirical designs.</p>
+      </section>
+
+      <section id="caution">
+        <h2>5. A caution for causal inference near the 2012 transition</h2>
+        <p>The transition between reconstructed pre-VIIRS observations and the observed VIIRS era is especially
+          important for causal inference. Studies using shocks that occur very close to this transition should be
+          interpreted cautiously. If a shock occurs near 2012, the estimated effect may partly capture how the dataset
+          bridges the reconstructed and observed eras rather than the effect of the shock itself.</p>
+
+        <p>A prudent rule of thumb is to create a buffer around the transition. Causal studies focused on the
+          reconstructed pre-VIIRS era should ideally analyze shocks that occur several years before the transition.
+          Studies focused on the observed VIIRS era should ideally analyze shocks that occur several years after it. A
+          three- to four-year buffer is a reasonable starting point, although the exact buffer should depend on the
+          country, outcome, empirical design, and diagnostic evidence.</p>
+      </section>
+
+      <section id="agenda">
+        <h2>6. A methodological and empirical agenda</h2>
+        <p>The possible applications are broad. These datasets are useful for synthetic control methods, long-term
+          convergence analysis, spatial analysis, space-time analysis, and time-series research. Their complexity is
+          substantial, but the opportunities opened by monthly nighttime light data are equally large.</p>
+
+        <p>The monthly frequency makes it possible to explore time-series patterns that are usually invisible in annual
+          data. Stationarity, structural breaks, seasonal cycles, lunar-calendar cycles, and other periodic rhythms can
+          be studied explicitly. Filters such as Hodrick-Prescott smoothing, Kalman smoothing, rolling windows, and
+          kernel-based methods may help extract long-term trends from noisy monthly trajectories. Fourier analysis may
+          also be useful for identifying recurring frequencies in nighttime light behavior.</p>
+
+        <p>This article should therefore be read as a first exploratory note. The figures suggest that the data are
+          valuable, but also that researchers should proceed with caution. Monthly VIIRS-like nighttime light datasets
+          appear promising for causal inference and long-term spatial analysis, yet strong filters and transformations
+          must be applied with prudence and transparency. The main point is not that the data are already perfect. The
+          main point is that they open a rich empirical agenda.</p>
+      </section>
+
+      <section id="data">
+        <h2>7. Data and replication</h2>
+        <p>The administrative-unit panel datasets and replication notebooks are available for further exploration. The
+          Parquet files provide compact formats for analysis, while the notebooks reproduce the figures and document the
+          workflow that can be adapted to other countries or administrative maps.</p>
+
+        <div class="grid">
+          <article class="card">
+            <h3>Indonesia Monthly NTL</h3>
+            <p><a
+                href="https://huggingface.co/datasets/faviolc/IndonesiaHKUMonthlyNTLDistrict/blob/main/outputs/HKU_VIIRS_Monthly_Indonesia_Admin_Stats_1992_2024.parquet">Open
+                Parquet dataset</a></p>
+          </article>
+          <article class="card">
+            <h3>Bolivia Monthly NTL</h3>
+            <p><a
+                href="https://huggingface.co/datasets/faviolc/BoliviaHKUMonthlyDistrict/blob/main/outputs/HKU_VIIRS_Monthly_Bolivia_Admin_Stats_1992_2024.parquet">Open
+                Parquet dataset</a></p>
+          </article>
+          <article class="card">
+            <h3>Indonesia replication notebook</h3>
+            <p><a href="https://colab.research.google.com/drive/1HUoT12X0jQ_Y257WfYTkyBaeiQ5ae2nX?usp=sharing">Open
+                Google Colab</a></p>
+          </article>
+          <article class="card">
+            <h3>Bolivia replication notebook</h3>
+            <p><a href="https://colab.research.google.com/drive/1XIpKmKcW6UrMfucg1vq0bHHJZC3u5Fs7?usp=sharing">Open
+                Google Colab</a></p>
+          </article>
+          <article class="card" style="grid-column: 1 / -1;">
+            <h3>General workflow notebook</h3>
+            <p><a href="https://colab.research.google.com/drive/1m_1liyN9HN5U5FEUtARbJ6X6Hg5g3fBE?usp=sharing">Adapt the
+                workflow to another country or administrative unit</a></p>
+          </article>
+        </div>
+      </section>
+
+      <section id="references" class="references">
+        <h2>References</h2>
+        <ol>
+          <li id="ref-chen2021">Chen, Z., Yu, B., Yang, C., Zhou, Y., Yao, S., Qian, X., Wang, C., Wu, B., &amp; Wu, J.
+            (2021). <span class="reference-title">An extended time series (2000–2018) of global NPP-VIIRS-like nighttime
+              light data from a cross-sensor calibration</span>. <em>Earth System Science Data, 13</em>, 889–906. <a
+              href="https://doi.org/10.5194/essd-13-889-2021">https://doi.org/10.5194/essd-13-889-2021</a></li>
+          <li id="ref-chen2024">Chen, X., Wang, Z., Zhang, F., Shen, G., &amp; Chen, Q. (2024). <span
+              class="reference-title">A global annual simulated VIIRS nighttime light dataset from 1992 to 2023</span>.
+            <em>Scientific Data, 11</em>, 1380. <a
+              href="https://doi.org/10.1038/s41597-024-04228-6">https://doi.org/10.1038/s41597-024-04228-6</a></li>
+          <li id="ref-cheng2026">Cheng, H., Geng, M., Li, X., Li, S., Zhao, M., Lin, C., Wang, J., Gong, P., &amp; Zhou,
+            Y. (2026). <span class="reference-title">A temporally consistent global 500 m-resolution monthly VIIRS-like
+              nighttime light dataset (1992–2024)</span>. <em>Earth System Science Data, 18</em>, 3449–3479. <a
+              href="https://doi.org/10.5194/essd-18-3449-2026">https://doi.org/10.5194/essd-18-3449-2026</a></li>
+          <li id="ref-chiovelli2026">Chiovelli, G., Michalopoulos, S., Papaioannou, E., &amp; Regan, T. (2026). <span
+              class="reference-title">Illuminating the Global South</span>. <em>The Economic Journal</em>, ueaf134. <a
+              href="https://doi.org/10.1093/ej/ueaf134">https://doi.org/10.1093/ej/ueaf134</a></li>
+          <li id="ref-li2020">Li, X., Zhou, Y., Zhao, M., &amp; Zhao, X. (2020). <span class="reference-title">A
+              harmonized global nighttime light dataset 1992–2018</span>. <em>Scientific Data, 7</em>, 168. <a
+              href="https://doi.org/10.1038/s41597-020-0510-y">https://doi.org/10.1038/s41597-020-0510-y</a></li>
+          <li id="ref-ds4bolivia2026">Mendez, C., Gonzales, E., Leoni, P., Andersen, L., &amp; Peralta, H. (2026a).
+            <span class="reference-title">DS4Bolivia: A Data Science Repository to Study GeoSpatial Development in
+              Bolivia</span>. GitHub repository. <a
+              href="https://github.com/quarcs-lab/ds4bolivia">https://github.com/quarcs-lab/ds4bolivia</a></li>
+          <li id="ref-indonesia5142026">Mendez, C., Abdulah, R., Arvianto, B., &amp; Leiva, F. (2026b). <span
+              class="reference-title">Indonesia514: A Data Science Repository to Study Regional Development in
+              Indonesia</span>. GitHub repository. <a
+              href="https://github.com/quarcs-lab/indonesia514">https://github.com/quarcs-lab/indonesia514</a></li>
+          <li id="ref-tang2025">Tang, H., Zhong, Y., Deng, J., Xia, H., &amp; Wei, J. (2025). <span
+              class="reference-title">Global nighttime light dataset from 1992 to 2022 with focus on low-light
+              areas</span>. <em>Scientific Data</em>. <a
+              href="https://doi.org/10.1038/s41597-025-05246-8">https://doi.org/10.1038/s41597-025-05246-8</a></li>
+        </ol>
+      </section>
+    </main>
+  </div>
+</div>
