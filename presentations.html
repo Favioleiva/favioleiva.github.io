@@ -1,0 +1,287 @@
+---
+layout: default
+title: "Presentations"
+permalink: /presentations/
+---
+
+<style>
+  .talk-intro {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto 2rem;
+    font-size: 0.95rem;
+    color: var(--color-muted);
+  }
+
+  .talk-section-title {
+    font-family: var(--font-display, 'Playfair Display', serif);
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--color-ink, #1a1a1a);
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 2px solid var(--color-accent, #b8553a);
+    display: inline-block;
+  }
+
+  .talk-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .talk-card {
+    background: var(--color-card-bg, #ffffff);
+    border: 1px solid var(--color-border, #d9cfc2);
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  .talk-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 28px rgba(0,0,0,0.1);
+  }
+
+  /* 16:9 slide poster. A gradient fallback keeps the card intentional
+     even if the thumbnail image is missing. */
+  .talk-card-media {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: linear-gradient(135deg, #2c2420 0%, #b8553a 100%);
+    border-bottom: 1px solid var(--color-border, #d9cfc2);
+    overflow: hidden;
+  }
+  .talk-card-media img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .talk-card-media .talk-play {
+    position: absolute;
+    right: 0.7rem;
+    bottom: 0.7rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.55);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    backdrop-filter: blur(2px);
+    transition: background 0.25s ease;
+  }
+  .talk-card:hover .talk-play { background: var(--color-accent, #b8553a); }
+
+  .talk-card-body {
+    padding: 1rem 1.1rem 1.2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .talk-card-type {
+    font-family: var(--font-sans, 'DM Sans', sans-serif);
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent, #b8553a);
+    margin-bottom: 0.4rem;
+  }
+
+  .talk-card-title {
+    font-family: var(--font-display, 'Playfair Display', serif);
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--color-ink, #1a1a1a);
+    margin-bottom: 0.5rem;
+  }
+
+  .talk-card-desc {
+    font-family: var(--font-body, 'Source Serif 4', serif);
+    font-size: 0.85rem;
+    color: var(--color-body, #3d3530);
+    line-height: 1.5;
+    margin-bottom: 0.9rem;
+    text-align: left;
+  }
+
+  .talk-card-actions {
+    margin-top: auto;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .talk-btn {
+    font-family: var(--font-sans, 'DM Sans', sans-serif);
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.35rem 0.75rem;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .talk-btn-primary {
+    background: var(--color-accent, #b8553a);
+    color: #fff;
+    border-bottom: none;
+  }
+  .talk-btn-primary:hover {
+    background: var(--color-accent-hover, #9e4530);
+    color: #fff;
+    border-bottom: none;
+  }
+  .talk-btn-secondary {
+    background: transparent;
+    color: var(--color-accent, #b8553a);
+    border: 1px solid var(--color-accent, #b8553a);
+    border-bottom: 1px solid var(--color-accent, #b8553a);
+  }
+  .talk-btn-secondary:hover {
+    background: var(--color-accent, #b8553a);
+    color: #fff;
+    border-bottom: 1px solid var(--color-accent, #b8553a);
+  }
+
+  @media (max-width: 480px) {
+    .talk-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+<h1 class="page-title">Presentations</h1>
+
+<p class="talk-intro">
+  Selected research progress reports and outreach presentations on spatial econometrics, satellite
+  data, and mining and regional development in Peru. Click any card to view the slides.
+</p>
+
+<!-- ==================== RESEARCH TALKS ==================== -->
+<div class="talk-section-title">Research Progress Reports</div>
+
+<div class="talk-grid">
+
+  <!-- Talk 1 (newest): Moran's Spaghetti · 9 Jul 2026 -->
+  <div class="talk-card">
+    <div class="talk-card-media">
+      <img src="/images/thumbnailsSlides/SlidesThumb3.png"
+           alt="Moran's Spaghetti — title slide"
+           onerror="this.style.display='none'">
+      <span class="talk-play"><i class="fa-solid fa-play"></i></span>
+    </div>
+    <div class="talk-card-body">
+      <span class="talk-card-type">Research Progress Report · 9 Jul 2026 · GSID, Nagoya University</span>
+      <div class="talk-card-title">Moran's Spaghetti: Exploratory Space-Time Data Analysis for High-N, High-T Panels</div>
+      <div class="talk-card-desc">
+        An ESTDA workflow that tracks global and local Moran's I across space and time.
+        Using an animated "Country of Bees" simulation, the local Moran's I spaghetti plot
+        reveals two localized mining booms hidden inside a large N×T panel.
+      </div>
+      <div class="talk-card-actions">
+        <a href="https://docs.google.com/presentation/d/1klF5jXy8TicsIMFhTgtJii96vXzL7hdS2FBQr0XEh-k/present"
+           class="talk-btn talk-btn-primary" target="_blank" rel="noopener">
+          <i class="fa-solid fa-display"></i> View slides
+        </a>
+        <a href="https://youtu.be/9Qvc48RBX4c"
+           class="talk-btn talk-btn-secondary" target="_blank" rel="noopener">
+          <i class="fa-brands fa-youtube"></i> Video
+        </a>
+        <a href="https://colab.research.google.com/drive/15oYicNiq4_fyIqSYe7LG44nLoGk8uCLO?usp=sharing"
+           class="talk-btn talk-btn-secondary" target="_blank" rel="noopener">
+          <i class="fa-solid fa-code"></i> Notebook
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Talk 2: Spaghetti Plots to Fan Charts · 7 Jul 2026 -->
+  <div class="talk-card">
+    <div class="talk-card-media">
+      <img src="/images/thumbnailsSlides/SlidesThumb2.png"
+           alt="From Spaghetti Plots to Fan Charts — title slide"
+           onerror="this.style.display='none'">
+      <span class="talk-play"><i class="fa-solid fa-play"></i></span>
+    </div>
+    <div class="talk-card-body">
+      <span class="talk-card-type">Research Progress Report · 7 Jul 2026 · GSID, Nagoya University</span>
+      <div class="talk-card-title">From Spaghetti Plots to Fan Charts: Descriptive Statistics for High-N, High-T Panels</div>
+      <div class="talk-card-desc">
+        A visual approach to describing large panel datasets — moving from dense
+        "spaghetti" line plots to descriptive decile fan charts, illustrated with daily
+        Black Marble nighttime lights for Peru, Bolivia, and Indonesia (2012–2026).
+      </div>
+      <div class="talk-card-actions">
+        <a href="https://docs.google.com/presentation/d/1bLB7J2iyCuVweQf-mnZnGemlFxQ60mklbHXdCWG4VSs/present"
+           class="talk-btn talk-btn-primary" target="_blank" rel="noopener">
+          <i class="fa-solid fa-display"></i> View slides
+        </a>
+        <a href="https://youtu.be/yW0C9hbv_Ow"
+           class="talk-btn talk-btn-secondary" target="_blank" rel="noopener">
+          <i class="fa-brands fa-youtube"></i> Video
+        </a>
+        <a href="https://colab.research.google.com/drive/1B8Ysd7g7tVtH-ya4A3dmltOquEgh0m6A?usp=sharing"
+           class="talk-btn talk-btn-secondary" target="_blank" rel="noopener">
+          <i class="fa-solid fa-code"></i> Notebook
+        </a>
+        <a href="https://github.com/Favioleiva/panelplots"
+           class="talk-btn talk-btn-secondary" target="_blank" rel="noopener">
+          <i class="fa-brands fa-github"></i> panelplots
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ==================== OUTREACH & SCHOLARSHIPS ==================== -->
+<div class="talk-section-title">Outreach &amp; Scholarships</div>
+
+<div class="talk-grid">
+
+  <!-- Estudiar en Japón -->
+  <div class="talk-card">
+    <div class="talk-card-media">
+      <img src="/images/thumbnailsSlides/SlidesThumbnail1.png"
+           alt="Estudiar en Japón — title slide"
+           onerror="this.style.display='none'">
+      <span class="talk-play"><i class="fa-solid fa-play"></i></span>
+    </div>
+    <div class="talk-card-body">
+      <span class="talk-card-type">Outreach · 16 May 2024 · Embajada del Japón en Perú</span>
+      <div class="talk-card-title">Estudiar en Japón: experiencia MEXT y vínculos académicos Perú–Japón</div>
+      <div class="talk-card-desc">
+        Visión general de mi experiencia académica y personal como estudiante de doctorado
+        en la Universidad de Nagoya, dirigida a postulantes a la beca de postgrado MEXT
+        (Monbukagakusho) en un evento de la Embajada del Japón en Perú.
+      </div>
+      <div class="talk-card-actions">
+        <a href="/slides/Presentacion_Monbukagakusho.pdf"
+           class="talk-btn talk-btn-primary" target="_blank" rel="noopener">
+          <i class="fa-solid fa-file-pdf"></i> Download PDF
+        </a>
+        <a href="https://www.facebook.com/CentroCulturalPeruanoJapones/videos/859564405981270"
+           class="talk-btn talk-btn-secondary" target="_blank" rel="noopener">
+          <i class="fa-solid fa-video"></i> Video
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div>
