@@ -8,10 +8,10 @@ lang: "Español"
 
 🎧 **Escucha este ensayo:**
 <audio controls>
-  <source src="{{ \'/audio/5caligrafia.mp3\' | relative_url }}" type="audio/mpeg">
+  <source src="{{ '/audio/5caligrafia.mp3' | relative_url }}" type="audio/mpeg">
 </audio>
 
-<img src="{{ \'/images/Logo2.png\' | relative_url }}" alt="Shodo" style="width: 100%; height: auto; max-width: 600px;">
+<img src="{{ '/images/Logo2.png' | relative_url }}" alt="Shodo" style="width: 100%; height: auto; max-width: 600px;">
 Fuente: Hecho a mano usando Illustrator.
 
 29/07/2024

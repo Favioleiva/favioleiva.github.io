@@ -8,7 +8,7 @@ lang: "Español"
 
 🎧 **Escucha este ensayo:**
 <audio controls>
-  <source src="{{ \'/audio/8aire.mp3\' | relative_url }}" type="audio/mpeg">
+  <source src="{{ '/audio/8aire.mp3' | relative_url }}" type="audio/mpeg">
 </audio>
 
 Favio Leiva

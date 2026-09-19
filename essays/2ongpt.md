@@ -8,7 +8,7 @@ lang: "English"
 
 🎧 **Listen to this essay:**
 <audio controls>
-  <source src="{{ \'/audio/2ongpt.mp3\' | relative_url }}" type="audio/mpeg">
+  <source src="{{ '/audio/2ongpt.mp3' | relative_url }}" type="audio/mpeg">
 </audio>
 
 This essay portrays some reflections on GPT and how we can use it to improve the speed of our workflow minimizing mistakes and revisions. 

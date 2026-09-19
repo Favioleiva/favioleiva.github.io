@@ -8,7 +8,7 @@ lang: "Español"
 
 🎧 **Escucha este ensayo:**
 <audio controls>
-  <source src="{{ \'/audio/7obligaciones.mp3\' | relative_url }}" type="audio/mpeg">
+  <source src="{{ '/audio/7obligaciones.mp3' | relative_url }}" type="audio/mpeg">
 </audio>
 
 Todo lo que nos rodea —las calles, los parques, los edificios, la infraestructura pública— es fruto del trabajo de quienes vinieron antes que nosotros. Ese legado, construido durante décadas, representa un capital público heredado. Sin embargo, rara vez pensamos en lo que eso implica: una deuda moral con nuestros antecesores, muchos de los cuales ya no están. Aunque no exista una forma directa de “pagarles”, el simple hecho de que hoy gocemos de sus frutos nos impone responsabilidades.

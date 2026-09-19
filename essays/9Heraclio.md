@@ -9,7 +9,7 @@ En memoria a Heraclio Bonilla
 
 🎧 **Escucha este ensayo:**
 <audio controls>
-  <source src="{{ \'/audio/9Bonilla.mp3\' | relative_url }}" type="audio/mpeg">
+  <source src="{{ '/audio/9Bonilla.mp3' | relative_url }}" type="audio/mpeg">
 </audio>
 
 Favio Leiva
