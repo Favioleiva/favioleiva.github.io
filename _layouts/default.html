@@ -27,7 +27,13 @@
 
     <script src="https://kit.fontawesome.com/66fbeebd3b.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body{% if page.url == '/' %} class="is-home"{% endif %}>
+    {% if page.url == '/' %}
+    <div class="home-background" aria-hidden="true">
+        <div class="home-background-image"></div>
+        <canvas id="home-network-canvas"></canvas>
+    </div>
+    {% endif %}
     <header>
         <h1>Economics, Geography &amp; Other Arts</h1>
         <nav>
@@ -49,5 +55,8 @@
     <footer>
         &copy; 2025 Favio Leiva Cárdenas · Nagoya, Japan
     </footer>
+    {% if page.url == '/' %}
+    <script src="{{ '/js/hero-network.js' | relative_url }}" defer></script>
+    {% endif %}
 </body>
 </html>
