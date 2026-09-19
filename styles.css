@@ -434,6 +434,7 @@ footer {
 .section-card:nth-child(4) { animation: fadeInUp 0.5s var(--ease-smooth) 0.44s both; }
 .section-card:nth-child(5) { animation: fadeInUp 0.5s var(--ease-smooth) 0.52s both; }
 .section-card:nth-child(6) { animation: fadeInUp 0.5s var(--ease-smooth) 0.6s both; }
+.section-card:nth-child(7) { animation: fadeInUp 0.5s var(--ease-smooth) 0.68s both; }
 
 /* --- Responsive --- */
 @media (max-width: 768px) {

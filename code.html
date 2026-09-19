@@ -1,0 +1,261 @@
+---
+layout: default
+title: "Code Development"
+permalink: /code/
+---
+
+<style>
+  .code-intro {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto 2rem;
+    font-size: 0.95rem;
+    color: var(--color-body, #3d3530);
+    line-height: 1.7;
+  }
+
+  .code-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .code-card {
+    background: var(--color-card-bg, #ffffff);
+    border: 1px solid var(--color-border, #d9cfc2);
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .code-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 28px rgba(0,0,0,0.1);
+  }
+
+  .code-card-img-link {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-bottom: 1px solid var(--color-border, #d9cfc2);
+    background: var(--color-warm-light, #f5efe8);
+  }
+
+  .code-card-img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .code-card:hover .code-card-img {
+    transform: scale(1.02);
+  }
+
+  .code-card-body {
+    padding: 1.1rem 1.2rem 1.25rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .code-card-meta {
+    font-family: var(--font-sans, 'DM Sans', sans-serif);
+    font-size: 0.68rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent, #b8553a);
+    margin-bottom: 0.4rem;
+    display: block;
+  }
+
+  .code-card-title {
+    font-family: var(--font-display, 'Playfair Display', serif);
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--color-ink, #1a1a1a);
+    margin-bottom: 0.6rem;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .code-card-title a {
+    color: var(--color-ink, #1a1a1a);
+    text-decoration: none;
+    border-bottom: none;
+    transition: color 0.25s ease;
+  }
+
+  .code-card-title a:hover {
+    color: var(--color-accent, #b8553a);
+    border-bottom: none;
+  }
+
+  .code-card-description {
+    font-family: var(--font-body, 'Source Serif 4', serif);
+    font-size: 0.88rem;
+    color: var(--color-body, #3d3530);
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+    text-align: left;
+    hyphens: auto;
+  }
+
+  .code-card-actions {
+    margin-top: auto;
+  }
+
+  .code-btn {
+    font-family: var(--font-sans, 'DM Sans', sans-serif);
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.4rem 0.85rem;
+    border-radius: 3px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--color-accent, #b8553a);
+    color: #fff;
+    border-bottom: none;
+  }
+
+  .code-btn:hover {
+    background: var(--color-accent-hover, #9e4530);
+    color: #fff;
+    border-bottom: none;
+  }
+
+  @media (max-width: 860px) {
+    .code-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.25rem;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .code-grid {
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+  }
+</style>
+
+<h1 class="page-title">Code Development</h1>
+
+<p class="code-intro">
+  I develop open-source computational tools motivated by problems that emerge from my research. These projects focus on GPU computing, Bayesian model-space exploration, spatial analysis, computational cartography, and reproducible research workflows.
+</p>
+
+<div class="code-grid">
+
+  <!-- PROJECT 1 — GPUBMA -->
+  <div class="code-card">
+    <a href="https://github.com/Favioleiva/gpubma" target="_blank" rel="noopener noreferrer" class="code-card-img-link" aria-label="GPUBMA GitHub repository">
+      <img
+        class="code-card-img"
+        src="{{ '/images/CodeDevelopment/gpuBMA.png' | relative_url }}"
+        alt="GPUBMA GPU Bayesian model-space illustration">
+    </a>
+    <div class="code-card-body">
+      <span class="code-card-meta">BAYESIAN COMPUTING · GPU</span>
+      <h2 class="code-card-title">
+        <a href="https://github.com/Favioleiva/gpubma" target="_blank" rel="noopener noreferrer">GPUBMA</a>
+      </h2>
+      <p class="code-card-description">
+        GPU-accelerated Bayesian Model Averaging for very large model spaces, supporting both exact enumeration and structured model-space search.
+      </p>
+      <div class="code-card-actions">
+        <a href="https://github.com/Favioleiva/gpubma" target="_blank" rel="noopener noreferrer" class="code-btn">
+          GITHUB ↗
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECT 2 — GPUESDA -->
+  <div class="code-card">
+    <a href="https://github.com/Favioleiva/gpuesda" target="_blank" rel="noopener noreferrer" class="code-card-img-link" aria-label="GPUESDA GitHub repository">
+      <img
+        class="code-card-img"
+        src="{{ '/images/CodeDevelopment/gpuESDA.png' | relative_url }}"
+        alt="GPUESDA spatial statistics and local clustering illustration">
+    </a>
+    <div class="code-card-body">
+      <span class="code-card-meta">SPATIAL STATISTICS · GPU</span>
+      <h2 class="code-card-title">
+        <a href="https://github.com/Favioleiva/gpuesda" target="_blank" rel="noopener noreferrer">GPUESDA</a>
+      </h2>
+      <p class="code-card-description">
+        GPU-accelerated exploratory spatial data analysis for large spatial and spatiotemporal datasets, including local spatial association analysis.
+      </p>
+      <div class="code-card-actions">
+        <a href="https://github.com/Favioleiva/gpuesda" target="_blank" rel="noopener noreferrer" class="code-btn">
+          GITHUB ↗
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECT 3 — GPUCartogram -->
+  <div class="code-card">
+    <a href="https://github.com/Favioleiva/gpu-cartogram" target="_blank" rel="noopener noreferrer" class="code-card-img-link" aria-label="GPUCartogram GitHub repository">
+      <img
+        class="code-card-img"
+        src="{{ '/images/CodeDevelopment/gpuCartogram.png' | relative_url }}"
+        alt="GPUCartogram continuous geographic deformation illustration">
+    </a>
+    <div class="code-card-body">
+      <span class="code-card-meta">COMPUTATIONAL CARTOGRAPHY · GPU</span>
+      <h2 class="code-card-title">
+        <a href="https://github.com/Favioleiva/gpu-cartogram" target="_blank" rel="noopener noreferrer">GPUCartogram</a>
+      </h2>
+      <p class="code-card-description">
+        GPU-accelerated continuous cartograms for high-resolution geographic data, enabling fast repeated transformations and animated cartographic workflows.
+      </p>
+      <div class="code-card-actions">
+        <a href="https://github.com/Favioleiva/gpu-cartogram" target="_blank" rel="noopener noreferrer" class="code-btn">
+          GITHUB ↗
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECT 4 — Diarizator -->
+  <div class="code-card">
+    <a href="https://github.com/Favioleiva/diarizator" target="_blank" rel="noopener noreferrer" class="code-card-img-link" aria-label="Diarizator GitHub repository">
+      <img
+        class="code-card-img"
+        src="{{ '/images/CodeDevelopment/Diarizator.png' | relative_url }}"
+        alt="Diarizator transcription and speaker diarization illustration">
+    </a>
+    <div class="code-card-body">
+      <span class="code-card-meta">RESEARCH TOOLS · AUDIO</span>
+      <h2 class="code-card-title">
+        <a href="https://github.com/Favioleiva/diarizator" target="_blank" rel="noopener noreferrer">Diarizator</a>
+      </h2>
+      <p class="code-card-description">
+        Local-first transcription and speaker diarization for research audio, with reproducible and privacy-conscious outputs.
+      </p>
+      <div class="code-card-actions">
+        <a href="https://github.com/Favioleiva/diarizator" target="_blank" rel="noopener noreferrer" class="code-btn">
+          GITHUB ↗
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div>

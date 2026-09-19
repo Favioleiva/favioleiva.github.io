@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} — Favio Leiva</title>
+    <title>{% if page.url == '/' %}Favio Leiva — Economics, Geography and Other Arts{% else %}{{ page.title }} — Favio Leiva{% endif %}</title>
     <meta name="description" content="Favio Leiva's personal academic website — Economics, Geography, Photography, Music and Other Arts.">
-    <meta property="og:title" content="{{ page.title }} — Favio Leiva">
+    <meta property="og:title" content="{% if page.url == '/' %}Favio Leiva — Economics, Geography and Other Arts{% else %}{{ page.title }} — Favio Leiva{% endif %}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://favioleiva.github.io{{ page.url }}">
 
@@ -32,13 +32,14 @@
         <h1>Economics, Geography &amp; Other Arts</h1>
         <nav>
             <ul>
-                <li><a href="{{ '/' | relative_url }}">Home</a></li>
-                <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
-                <li><a href="{{ '/presentations/' | relative_url }}">Presentations</a></li>
-                <li><a href="{{ '/tutorials/' | relative_url }}">Tutorials</a></li>
-                <li><a href="{{ '/essays/' | relative_url }}">Essays</a></li>
-                <li><a href="{{ '/music/' | relative_url }}">Music</a></li>
-                <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+                <li><a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Home</a></li>
+                <li><a href="{{ '/publications/' | relative_url }}"{% if page.url contains '/publications' %} class="active"{% endif %}>Publications</a></li>
+                <li><a href="{{ '/presentations/' | relative_url }}"{% if page.url contains '/presentations' %} class="active"{% endif %}>Presentations</a></li>
+                <li><a href="{{ '/code/' | relative_url }}"{% if page.url contains '/code' %} class="active"{% endif %}>Code</a></li>
+                <li><a href="{{ '/tutorials/' | relative_url }}"{% if page.url contains '/tutorials' %} class="active"{% endif %}>Tutorials</a></li>
+                <li><a href="{{ '/essays/' | relative_url }}"{% if page.url contains '/essays' %} class="active"{% endif %}>Essays</a></li>
+                <li><a href="{{ '/music/' | relative_url }}"{% if page.url contains '/music' %} class="active"{% endif %}>Music</a></li>
+                <li><a href="{{ '/contact/' | relative_url }}"{% if page.url contains '/contact' %} class="active"{% endif %}>Contact</a></li>
             </ul>
         </nav>
     </header>

@@ -8,7 +8,7 @@ lang: "Español"
 
 🎧 **Escucha este ensayo:**
 <audio controls>
-  <source src="/audio/6cultura.mp3" type="audio/mpeg">
+  <source src="{{ \'/audio/6cultura.mp3\' | relative_url }}" type="audio/mpeg">
 </audio>
 
 En un célebre chiste de don Pablo Villanueva, Melcochita, este mencionaba a su interlocutor que le faltaba agricultura. Evidentemente, se refería a la cultura. Esta es una palabra muy curiosa porque tiene que ver con cultivar. Es literalmente "cultivo", como bien Altieri (2001) nos hace notar. Todos los humanos de esta tierra existimos en relación con el campo. La agricultura es el cultivo del campo. 
