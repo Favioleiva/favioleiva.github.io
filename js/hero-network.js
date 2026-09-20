@@ -29,11 +29,12 @@
     amberCore: 'rgba(255, 240, 205, ',
     lineColor: 'rgba(110, 200, 235, ',
 
-    // Timing (milliseconds)
-    minPulseDuration: 3500,
-    maxPulseDuration: 7500,
-    minTravelDuration: 6000,
-    maxTravelDuration: 11000,
+    // Timing (milliseconds) — 2x speed adjustment
+    nodeSpeedMultiplier: 2.0,
+    minTravelDuration: 3000,
+    maxTravelDuration: 5500,
+    pulseDelayMin: 750,
+    pulseDelayRange: 1500,
 
     // Concurrency limits
     maxDesktopPulses: 2,
@@ -163,7 +164,7 @@
     pulse.path = path;
     pulse.forward = forward;
     pulse.duration = duration;
-    pulse.startTime = now + Math.random() * 2000;
+    pulse.startTime = now + Math.random() * 1000;
     pulse.type = path.type;
     pulse.active = true;
   }
@@ -305,7 +306,7 @@
       if (pt.x < -10 || pt.x > width + 10 || pt.y < -10 || pt.y > height + 10) continue;
 
       const isAmber = (node.type === 'amber');
-      const wave = 0.5 + 0.5 * Math.sin((now / node.period) * Math.PI * 2 + node.phase);
+      const wave = 0.5 + 0.5 * Math.sin(((now * CONFIG.nodeSpeedMultiplier) / node.period) * Math.PI * 2 + node.phase);
 
       const alphaGlow = 0.08 + 0.32 * wave;
       const alphaCore = 0.20 + 0.45 * wave;
@@ -329,7 +330,7 @@
       ctx.fill();
     }
 
-    // 3. Slow traveling pulses
+    // 3. Traveling pulses (2x speed)
     const maxPulses = isMobile ? CONFIG.maxMobilePulses : CONFIG.maxDesktopPulses;
     while (travelingPulses.length < maxPulses) {
       const newPulse = {};
@@ -345,7 +346,7 @@
       const t = elapsed / pulse.duration;
 
       if (t >= 1) {
-        initPulse(pulse, now + 1500 + Math.random() * 3000);
+        initPulse(pulse, now + CONFIG.pulseDelayMin + Math.random() * CONFIG.pulseDelayRange);
         continue;
       }
 

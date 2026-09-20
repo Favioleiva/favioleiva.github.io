@@ -85,14 +85,17 @@ lang: "English"
       padding: 38px 24px 72px;
     }
 
-    .ntl-essay header.hero {
-      margin: 28px auto 34px;
-      padding: 48px 44px 42px;
+    .ntl-essay .ntl-hero {
+      position: static;
+      display: block;
+      margin: 20px auto 28px;
+      padding: 36px 36px 32px;
       border: 1px solid var(--line);
-      border-radius: 28px;
-      background: rgba(255, 255, 255, .82);
-      box-shadow: 0 24px 70px rgba(28, 25, 23, .08);
+      border-radius: 24px;
+      background: rgba(255, 255, 255, .88);
+      box-shadow: 0 16px 48px rgba(28, 25, 23, .06);
       backdrop-filter: blur(6px);
+      text-align: left;
     }
 
     .ntl-essay .eyebrow {
@@ -107,17 +110,17 @@ lang: "English"
     .ntl-essay h1 {
       margin: 0;
       max-width: 880px;
-      font-size: clamp(2.4rem, 5vw, 4.6rem);
-      line-height: .98;
-      letter-spacing: -.055em;
-      font-weight: 850;
+      font-size: clamp(1.8rem, 3.2vw, 2.5rem);
+      line-height: 1.18;
+      letter-spacing: -.03em;
+      font-weight: 800;
     }
 
     .ntl-essay .subtitle {
       max-width: 800px;
-      margin: 24px 0 0;
+      margin: 16px 0 0;
       color: var(--muted);
-      font-size: clamp(1.05rem, 2.2vw, 1.33rem);
+      font-size: clamp(0.95rem, 1.6vw, 1.12rem);
       line-height: 1.55;
     }
 
@@ -163,7 +166,7 @@ lang: "English"
       border-bottom: 0;
     }
 
-    .ntl-essay main {
+    .ntl-essay .ntl-main {
       background: rgba(255, 255, 255, .72);
       border: 1px solid var(--line);
       border-radius: 28px;
@@ -332,12 +335,12 @@ lang: "English"
         padding: 18px 14px 54px;
       }
 
-      .ntl-essay header.hero {
-        padding: 34px 24px;
-        border-radius: 22px;
+      .ntl-essay .ntl-hero {
+        padding: 24px 18px;
+        border-radius: 18px;
       }
 
-      .ntl-essay main {
+      .ntl-essay .ntl-main {
         border-radius: 22px;
       }
 
@@ -382,10 +385,10 @@ lang: "English"
         padding: 0;
       }
 
-      .ntl-essay header.hero,
+      .ntl-essay .ntl-hero,
 
 
-      .ntl-essay main,
+      .ntl-essay .ntl-main,
 
 
       .ntl-essay .toc,
@@ -402,7 +405,7 @@ lang: "English"
         background: #fff;
       }
 
-      .ntl-essay header.hero {
+      .ntl-essay .ntl-hero {
         border: 0;
         margin: 0;
         padding: 0 0 12pt;
@@ -427,7 +430,7 @@ lang: "English"
         display: none;
       }
 
-      .ntl-essay main {
+      .ntl-essay .ntl-main {
         border: 0;
         border-radius: 0;
         padding: 0;
@@ -527,7 +530,7 @@ lang: "English"
 
 <div class="ntl-essay">
 <div class="page">
-    <header class="hero">
+    <div class="ntl-hero">
       <p class="eyebrow">Exploratory research note</p>
       <h1>Monthly VIIRS-like Nighttime Lights for Indonesia and Bolivia, 1992–2024</h1>
       <p class="subtitle">A comparison of administrative-unit nighttime light trajectories, sensor-era transitions, and
@@ -537,7 +540,7 @@ lang: "English"
         <span>Indonesia and Bolivia monthly NTL panels</span>
         <span>1992–2024</span>
       </div>
-    </header>
+    </div>
 
     <aside class="toc" aria-label="Contents">
       <h2>Contents</h2>
@@ -554,7 +557,7 @@ lang: "English"
       </nav>
     </aside>
 
-    <main>
+    <div class="ntl-main">
       <section id="abstract" class="abstract">
         <div class="abstract-box">
           <h2>Abstract</h2>
@@ -814,6 +817,6 @@ lang: "English"
           responsibility of the author.
         </p>
       </section>
-    </main>
+    </div>
   </div>
 </div>
